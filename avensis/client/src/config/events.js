@@ -1,5 +1,8 @@
 import image1 from "../Images/Events/Geekroomevent.png";
-
+import robot from "../Images/Robot.jpg";
+import technical from "../Images/download.gif";
+import fun from "../Images/fun.jpg";
+import gaming from "../Images/gaming.jpg";
 import scav from "../Images/Events/fun_crev/Pos_ScavengerHunt_6.PNG";
 import gully from "../Images/Events/fun_crev/GullyCricket_4x4.PNG";
 import cupid from "../Images/Events/fun_crev/Cupid AI _4×3.png";
@@ -387,7 +390,7 @@ export const Events = [
         id: 0,
         content:
           "Algo Hunt by geek room is a realm of data strcutres and algorithms where participants will compete to win exciting przies by their problem solving capabilities",
-      },
+      }
       ,
       {
         name: "PRIZES",
@@ -653,6 +656,39 @@ export const Events = [
         content:
           "<span className=' text-[#4A9FA0] font-bold '> to be added soon  </span>   ",
       },
+    ],},
+
+      {
+        id: 16,
+        link: "https://unstop.com/p/cupid-ai-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-883324",
+        tabs: [
+          {
+            image: robot,
+            id: 0,
+          },
+    ],
+  },
+
+  {
+        id: 17,
+        link: "https://unstop.com/p/cupid-ai-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-883324",
+        tabs: [
+          {
+            image: robot,
+            id: 0,
+          },
+          {
+            image: technical,
+            id: 1,
+          },
+          {
+            image: gaming,
+            id: 2,
+          },
+          {
+            image: fun,
+            id: 3,
+          },
     ],
   },
 ];
