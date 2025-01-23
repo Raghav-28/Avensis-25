@@ -1,11 +1,10 @@
 import React, { useState ,useEffect } from "react";
-import { FaBars, FaCaretDown } from "react-icons/fa";
+import { FaBars} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Logo from "../../../Images/logoo.png"
 import cookie from "js-cookie"
 
 const Navbar = () => {
-
 
   let Links = [
     { name: "About", link: "#ABout" },
@@ -89,7 +88,7 @@ const Navbar = () => {
             
           ))}
           {
-            user=="REGISTER"?
+            user==="REGISTER"?
             <Link to ="https://avensis-backend.msit.in/auth/google/callback">
             {/* <Link to ="https://avensis-backend.onrender.com/auth/google/callback"> */}
           <li>
