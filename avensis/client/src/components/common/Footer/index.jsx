@@ -1,14 +1,5 @@
 import React, { useState } from 'react'
 import image from "../../../Images/footer-back.png"
-import tanay from '../../../Images/team/Tanay.png'
-import utkarsh from '../../../Images/team/utkarsh.png'
-import uday from '../../../Images/team/uday.jpg'
-import kaif from '../../../Images/team/kaif.jpeg'
-import yash from '../../../Images/team/yash.jpeg'
-import chutia from '../../../Images/team/chutia.jpg'
-import anshita from '../../../Images/team/anshita.jpg'
-import kratika from '../../../Images/team/kratika.jpg'
-import harsh from '../../../Images/team/harsh.jpg'
 import { FiMail } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 
@@ -22,7 +13,7 @@ const Footer = () => {
   {
     setCount(0);
   }
-  const team = [
+    /* const team = [
     {
       name: "Tanay Aggarwal",
       linkedIn:"https://www.tanayaggarwal.com",
@@ -67,7 +58,7 @@ const Footer = () => {
       linkedIn:"https://www.linkedin.com/in/harsh-jain-10467a22b",
       image : harsh,
     },
-  ];
+  ]; */ 
   function memberCard(member)
   {
     return <div class="mx-[15px] w-[160px]">
@@ -91,10 +82,6 @@ const Footer = () => {
                   <span class="contactname">Deepak</span><span class="contactcoma"><br/> </span><span >Chief Advisor </span><br/>
                 <span>+91 84477 40842 </span>  
                 </div>
-                {/* <div>
-                  <a href='https://sites.google.com/view/shloksportfolio' ><span class="contactname">Shlok Rana</span><span class="contactcoma"><br/> </span><span>Chief Advisor </span><br/>
-                  <span>+91 96435 66916</span></a>
-                </div> */} 
             </div>
         </div>
 
@@ -125,10 +112,11 @@ const Footer = () => {
                 <h1 className='py-3 ml-[10%] text-3xl font-semibold text-black'>Meet the team</h1>
                 <div className='w-full h-[2px] bg-gray-300'></div>
                 <div className='w-[90%] flex flex-wrap mx-auto justify-around text-center mt-3'>
+                        { /*
                         {team.map((member) => (
                           memberCard(member)
-                        ))}
-
+                        ))} 
+                     */ }
                 </div>
                 <div className='w-full h-[2px] bg-gray-300'></div>
                 <button onClick={hideTeam} type="button" id="closeteam" className='ml-[85%] my-2' data-dismiss="modal">Close</button>

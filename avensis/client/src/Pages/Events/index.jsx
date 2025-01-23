@@ -42,11 +42,10 @@ const Index = () => {
         },
       });
 
-      const literary = Events.slice(6,9);
-      const technical = Events.slice(9,13);
-      const gaming = Events.slice(2,6);
-      const creativity = Events.slice(0,2);
-      const cultural = Events.slice(13,16);
+      const literary = Events.slice(7,11);
+      const technical = Events.slice(11,14);
+      const gaming = Events.slice(3,7);
+      const creativity = Events.slice(0,3);
 
 
   return (
@@ -86,8 +85,6 @@ const Index = () => {
         </div>
       </div>
         <div class="event-theme">
-            {/* <img src={circle} class="circle1"/>
-            <img src={circle} class="circle2"/> */}
           <span class="eventstitle">ROBOTICS</span>
           <div class="event-boxes">
           {
@@ -105,27 +102,7 @@ const Index = () => {
                 ))
             }        </div>
       </div>
-      <div class="event-theme">
-            {/* <img src={circle} class="circle1"/>
-            <img src={circle} class="circle2"/> */}
-          <span class="eventstitle">CULTURAL</span>
-          <div class="event-boxes">
-            {
-                cultural.map(event => (
-                    <EventCard
-                                            catName = {event.catName}
-                        id = {event.id}
-                        name = {event.name}
-                        time = {event.time}
-                        image = {event.tabs[0].image}
-                        date = {event.date}
-                        desc = {event.desc}
 
-                    />
-                ))
-            }
-        </div>
-      </div>
       <div class="event-theme">
             {/* <img src={circle} class="circle1"/>
             <img src={circle} class="circle2"/> */}
@@ -134,7 +111,7 @@ const Index = () => {
             {
                 gaming.map(event => (
                     <EventCard
-                                            catName = {event.catName}
+                        catName = {event.catName}
                         id = {event.id}
                         name = {event.name}
                         time = {event.time}
@@ -155,7 +132,7 @@ const Index = () => {
             {
                 creativity.map(event => (
                     <EventCard
-                                            catName = {event.catName}
+                        catName = {event.catName}
                         id = {event.id}
                         name = {event.name}
                         time = {event.time}

@@ -1,6 +1,5 @@
 import React from 'react'
 import video from '../../../Images/avensis1.M4V'
-import image from "../../../Images/april.png"
 
 const index = () => {
   return (

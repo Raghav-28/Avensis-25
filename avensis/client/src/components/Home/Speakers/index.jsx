@@ -107,7 +107,7 @@ const index = () => {
                 <div className="bg-[#1D1332] flex rounded-lg p-2 md:p-4 w-[360px] md:w-[400px] h-[140px] md:h-[180px] mx-[5%]">
                   <img
                     className="object-cover w-2/3 h-full"
-                    src={Events[17].tabs[0].image}
+                    src={Events[14].tabs[0].image}
                     alt=""
                   />
                   <div className="text-white pl-3 font-[roboto] flex flex-col justify-center w-1/3">
@@ -117,7 +117,7 @@ const index = () => {
                 <div className="bg-[#1D1332] mt-6 md:mt-0 flex rounded-lg p-2 md:p-4 w-[360px] md:w-[400px] h-[140px] md:h-[180px] mx-[5%]">
                   <img
                     className="object-cover w-2/3 h-full"
-                    src={Events[17].tabs[1].image}
+                    src={Events[14].tabs[1].image}
                     alt=""
                   />
                   <div className="text-white pl-3 font-[roboto] flex flex-col justify-center w-1/3">
@@ -131,7 +131,7 @@ const index = () => {
               <div className="md:flex">
                 <div className="bg-[#1D1332] flex rounded-lg p-2 md:p-4 w-[380px] md:w-[420px] h-[160px] md:h-[200px] mx-[5%]">
                   <img
-                    src={Events[17].tabs[3].image}
+                    src={Events[14].tabs[3].image}
                     className="object-cover w-[60%] h-full"
                     alt=""
                   />
@@ -144,7 +144,7 @@ const index = () => {
                 <div className="mt-6 md:mt-0 bg-[#1D1332] flex rounded-lg p-2 md:p-4 w-[380px] md:w-[420px] h-[160px] md:h-[200px] mx-[5%]">
                   <img
                     className="object-cover w-2/3 h-full"
-                    src={Events[17].tabs[2].image}
+                    src={Events[14].tabs[2].image}
                     alt=""
                   />
                   <div className="text-white pl-3 font-[roboto] flex flex-col justify-center w-1/3">
