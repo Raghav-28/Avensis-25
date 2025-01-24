@@ -5,6 +5,13 @@ import gaming from "../Images/gaming.jpg";
 import T1 from "../Images/T-1.jpg";
 import T2 from "../Images/T-2.jpeg";
 import T3 from "../Images/T-3.jpeg";
+import G1 from "../Images/G-1.jpeg";
+import G2 from "../Images/G-2.jpeg";
+import G3 from "../Images/G-3.jpeg";
+import G4 from "../Images/G-4.jpeg";
+import R1 from "../Images/R-1.jpeg";
+import R2 from "../Images/R-2.jpeg";
+import R3 from "../Images/R-3.jpeg";
 import robosocimag from "../Images/Events/Robotics/Pos_RoboSoccer_5.png";
 
 export const Events = [
@@ -136,40 +143,41 @@ export const Events = [
 
   {
     id: 3,
-    name: "Asphalt",
-    desc: "fun and creativity",
-    date: "january 29th",
-    time: "to be updated",
-    link: "https://forms.gle/WMbWH4NPvagp1btj7",
-    catName: "",
+    name: "Asphalt 9 Legends",
+    desc: "🚗💨 Rev Your Engines for the Asphalt Tournament at Avensis'25! 🎮🔥",
+    date: "January 29th",
+    time: "10 AM onwards",
+    image: G1,
+    link: "https://forms.gle/N1nUfcvas4ezHW7R7",
+    catName: "gaming",
     tabs: [
       {
         name: "ABOUT",
-        image: robot,
+        image: G1,
         id: 0,
         content:
-          "<span className='text-[#4A9FA0] font-semibold'>Welcome to HACK AVENSIS!</span><br/><br/>Hack Avensis is more than just a hackathon; it's an innovation hub where ideas meet execution and dreams take flight. Join us for an adrenaline-fueled journey into the world of hacking, where creativity, collaboration, and code converge to solve real-world problems.<br/><br/>This hackathon isn't just for seasoned developers; it's for anyone with a passion for problem-solving and a drive to make a difference. Whether you're a coding whiz or a newbie eager to learn, there's a place for you at HACK AVENSIS.<br/><br/>Get ready to immerse yourself in a whirlwind of innovation, mentorship, and excitement. Together, let's code, create, and change the world, one line at a time!",
+          "🚗💨 Rev Your Engines for the Asphalt Tournament at Avensis'25! 🎮🔥 <br/> 🏁 Compete for glory, cash prizes, and the title of the fastest racer at Avensis'25. <br/>📅 Date: 29th January 2025 <br/>🕚 Time: 10 AM onwards <br/>📍 Venue: MSIT LAB 204",
       },
       {
-        name: "PROBLEM STATEMENTS",
-        image: robot,
+        name: "REQUIREMENTS",
+        image: G1,
         id: 1,
         content:
-          "<div className='font-bold'><ul><li>1. Enhancing Healthcare Accessibility through Telemedicine Solutions.</li><br/><li>2. Sustainable Solutions for Waste Management in Urban Areas.</li><br/><li>3. Revolutionizing Online Education Platforms for Enhanced Learning Experience.</li><br/><li>4. Optimizing Supply Chain Management for Improved Efficiency.</li></ul></div><br/>Stay updated on Unstop site for the detailed problem statements. Register now to secure your spot and receive all necessary updates!",
+          "<div className='font-bold'><ul><li>1.Your laptop with Asphalt installed and ready to go.</li><li>2. Your own gaming accessories: mouse, keyboard, headset – whatever gives you the edge!</li><li>3.Your A-game and strategy to outplay the competition!</li>",
       },
       {
         name: "GUIDELINES",
-        image: robot,
+        image: G1,
         id: 2,
         content:
-          "<div className='font-bold text-white'>Hack Avensis Guidelines:</div><br/><br/><div>- Teams must consist of 2-4 members, with diverse skill sets encouraged for optimal collaboration.<br/><br/>- Participants must register using the provided link before the event date to ensure seamless participation.<br/><br/>- Code submissions must adhere to ethical standards and respect intellectual property rights.<br/><br/>- Participants are encouraged to leverage open-source resources and APIs, but plagiarism is strictly prohibited.<br/><br/>- Each team will have designated time slots for presentations and demos, with judges evaluating projects based on creativity, functionality, and impact.<br/><br/>- Collaboration and teamwork are key; foster a supportive environment, share knowledge, and have fun hacking!</div>",
+          "<div className='font-bold text-white'>Hack Avensis Guidelines:</div><br/><br/><div>-<li>Eligibility: Open to all registered players using their own devices.<li>Format: Single-player Time Trial or Multiplayer (decided by organizers). Tracks and cars will be pre-selected.<li>Entry Fee: Rs. 50<li>Prize Pool: Rs. 2250.<li>Gameplay: No hacks, cheats, or modded apps allowed. Default in-game settings only.<li>Timing: Be present 30 minutes before your slot; latecomers forfeit their turn.<li>Conduct: Respect others; misconduct or unfair play leads to disqualification.<li>Scoring: Winners are based on fastest completion time or points.<li>Devices: Ensure your device is charged and functioning. No extra time for issues.<li>Organizer's Decision: Final and binding.</div>",
       },
       {
         name: "VENUE",
-        image: gaming,
+        image: G1,
         id: 3,
         content:
-          "<div className='text-[#4A9FA0] text-white'><span className='font-bold'>VENUE: 105 105 A 106 B </span><br/></div>",
+          "<div className='text-[#4A9FA0] text-white'><span className='font-bold'>📍Venue: MSIT LAB 204</span><br/></div>",
       },
     ],
   },
@@ -178,36 +186,78 @@ export const Events = [
     id: 4,
     name: "BGMI",
     catName: "gaming",
-    date: "January 29th",
-    time: "to be updated",
+    link: "https://forms.gle/Vfc8329ivE33sgj97",
+    date: "January 30th",
+    time: "10 AM ONWARDS",
     desc: "",
+    image: G4,
     tabs: [
       {
         name: "ABOUT",
         id: 0,
-        image: robot,
+        image: G4,
         content:
-          "to be updated to be updated ",
+          "🎮🔥 Gear Up for the BGMI Tournament at Avensis'25! 🔥🎮 <br/> Assemble your squad and join the ultimate battleground showdown at Avensis'25!🏆 Prove your skills, dominate the arena, and take home the glory.<br/> 🗓 Date: Thursday, 30th January 2025<br/>🕐 Time: 10:00 AM Onwards<br/>📍 Venue:  MSIT LAB 101 <br/> 👥 Team Size: 4 members (Squad Matches) <br/>💰 Entry Fee: Rs. 80/- per squad",
       },
       {
         name: "SIZE",
         id: 1,
-        image: robot,
+        image: G4,
         content:
           "   <span className=' text-[#4A9FA0] font-bold '> Team Size: </span>  maximum 4",
       },
       {
-        name: "To be updated",
+        name: "Rules",
         id: 2,
-        image: robot,
-        content: " 300-400 ",
+        image: G4,
+        content: `
+**A- Team Composition:**
+
+1. Each team must consist of 4 players (no substitutes allowed).
+2. All players must use their own devices and accounts.
+
+**B - Game Format:**
+
+1. Matches will be conducted in Classic Squad Mode on Erangel or other official maps (details will be shared before the match).
+2. All matches will be hosted on a custom room.
+
+**C- Gameplay Rules:**
+
+1. Emulators are NOT allowed. Only mobile devices are permitted.
+2. Use of any hacks, cheats, or third-party tools is strictly prohibited. Violators will be disqualified immediately.
+3. Teaming with other squads or engaging in unfair gameplay will lead to disqualification.
+4. Players must ensure a stable internet connection. Lag or disconnection issues will not result in a rematch.
+
+**D- Conduct:**
+
+1. Respect fellow players and tournament officials. Toxic behavior, offensive language, or misconduct will not be tolerated.
+2. Follow the instructions provided by the tournament organizers at all times.
+
+**E- Match Timing:**
+
+1. Teams must join the custom room 15 minutes before the match starts. Room ID and password will be shared in advance.
+2. Late entries will not be entertained once the match begins.
+
+**F- Scoring System:**
+
+1. Points will be awarded based on match placement and kills. The detailed point system will be shared before the tournament.
+
+**G - Technical Issues:**
+
+1. In case of technical difficulties on the organizer's side, matches will be rescheduled.
+2. Any disputes must be reported to the organizers immediately after the match.
+
+**H - Disqualification:**
+
+Failure to adhere to the rules or causing disruption to the event will lead to immediate disqualification.
+`,
       },
       {
-        name: "REQUIREMENT",
+        name: "REQUIREMENTS",
         id: 3,
-        image: robot,
+        image: G4,
         content:
-          "<div className='text-2xl'>A LAB</div>",
+          "<li>Your mobile phone with BGMI installed and ready to go. <li>Your own gaming accessories: headsets – whatever gives you the edge! <li>Your A-game and strategy to outplay the competition!",
       },
     ],
   },
@@ -215,66 +265,113 @@ export const Events = [
     id: 5,
     name: "CHESS",
     catName: "gaming",
+    image: G2,
     date: "January 29th",
-    time: "to be updated ",
+    time: "10 AM ONWARDS",
     desc: "",
     tabs: [
       {
         name: "ABOUT",
         id: 0,
-        image: gaming,
+        image: G2,
         content:
-          "xyx xyz dshfcojoxzmdj",
+          "To ensure fair pairings and balanced competition, the tournament features a Group and Knockout Stage format. In the group stage, players are evenly distributed across groups of varying ratings, providing all participants with a fair number of games before elimination.<br/>🔥 Group Stage: Round Robin format, 3+1 time control ⏱<br/>🔥 Knockout Stage: Intense 5+0 battles! 💥<br/>💰 Entry Fee: Only Rs. 75! 💰 <br/> 🗓 Date: Wednesday, 29th January 2025 <br/>🕐 Time: 10:00 AM Onwards <br/>📍 Venue: Maharaja Surajmal Institute of Technology, Room 410",
       },
       {
-        name: "",
+        name: "RULES",
         id: 1,
-        image: gaming,
-        content: " 300-400 ",
+        image: G2,
+        content:
+          "<a href='https://drive.google.com/file/d/1b7f3PkWwCjc6-2UgNflJsvot5_gNr2Z0/view'>Click here to view the rules</a>",
       },
       {
-        name: "REQUIREMENT",
+        name: "CONTACT",
         id: 2,
-        image: gaming,
+        image: G2,
         content:
-          " <div className='text-2xl'>Venue:LAB <br/></div>",
+          " Follow our Instagram Page for more Updates: https://www.instagram.com/avensis_2025?igsh=bzhnZmN1YWcyYXl5 <br/> For any queries, contact: <br/>👤 Akshat : 9818565757 <br/>👤 Vipul : 9650526610",
       },
     ],
   },
   {
     id: 6,
-    name: "VALORANT",
+    name: "VALORANT - OMEN'S GAMBIT",
     catName: "gaming",
-    date: "January 29th",
-    time: "XYZ PM",
+    inmage: G3,
+    date: "January 30th",
+    link: "https://forms.gle/uxwsidhHT7xoLC6d8",
+    time: "11 AM ONWARDS",
     desc: "",
     tabs: [
       {
         name: "ABOUT",
         id: 0,
-        image: gaming,
+        image: G3,
         content:
-          "",
+          " Hey gamers! Ready to dominate the battlefield? Gear up for Omen's Gambit, our most thrilling Valorant event yet, happening right here! <br/> 🗓 Date: Friday, 31st January 2025 <br/>📍Venue: MSIT LAB 204 <br/>🕒 Time: 11:00 AM Onwards <br/>💰 Entry Fee: Rs. 100/- per squad",
       },
       {
         name: "SIZE",
         id: 1,
-        image: gaming,
+        image: G3,
         content:
-          "  <span className=' text-[#4A9FA0] font-bold '> Team Size: </span>  maximum 4",
+          "  <span className=' text-[#4A9FA0] font-bold '> Team Size: </span>5 members(All players must use their own laptops and accounts.)",
       },
       {
-        name: "EXPECTED FOOTFALL",
+        name: "RULES",
         id: 2,
-        image: gaming,
-        content: " 15 teams ",
+        image: G3,
+        content: `
+    <h2>Team Composition:</h2>
+    <ul>
+      <li>Each team must consist of 5 players (no substitutes allowed).</li>
+      <li>All players must use their own laptops and accounts.</li>
+    </ul>
+
+    <h2>Game Format:</h2>
+    <ul>
+      <li>Matches will be conducted in Standard mode on any of the official maps (details will be shared before the match).</li>
+      <li>All matches will be hosted on a custom room.</li>
+    </ul>
+
+    <h2>Gameplay Rules:</h2>
+    <ul>
+      <li>Use of any hacks, cheats, or third-party tools is strictly prohibited. Violators will be disqualified immediately.</li>
+      <li>Teaming with other squads or engaging in unfair gameplay will lead to disqualification.</li>
+      <li>Players must ensure a stable internet connection. Lag or disconnection issues will not result in a rematch.</li>
+    </ul>
+
+    <h2>Conduct:</h2>
+    <ul>
+      <li>Respect fellow players and tournament officials. Toxic behavior, offensive language, or misconduct will not be tolerated.</li>
+      <li>Follow the instructions provided by the tournament organizers at all times.</li>
+    </ul>
+
+    <h2>Match Timing:</h2>
+    <ul>
+      <li>Players must reach the venue by at least 10:30 AM to ensure a smooth setup and workflow.</li>
+      <li>Teams must join the battle 15 minutes before the match starts.</li>
+      <li>Late entries will not be entertained once the match begins.</li>
+    </ul>
+
+    <h2>Technical Issues:</h2>
+    <ul>
+      <li>In case of technical difficulties on the organizer's side, matches will be rescheduled.</li>
+      <li>Any disputes must be reported to the organizers immediately after the match.</li>
+    </ul>
+
+    <h2>Disqualification:</h2>
+    <ul>
+      <li>Failure to adhere to the rules or causing disruption to the event will lead to immediate disqualification.</li>
+    </ul>
+  `,
       },
       {
         name: "REQUIREMENT",
         id: 3,
-        image: gaming,
+        image: G3,
         content:
-          "<div className='text-2xl'> <span className=' text-[#4A9FA0] font-bold '> Venue: </span> LAB <br/ <br/></div>",
+          "1.Your laptop with Valorant installed and ready to go. <br/>2. Your own gaming accessories: mouse, keyboard, headset – whatever gives you the edge! <br/>3. Your A-game and strategy to outplay the competition!",
       },
     ],
   },
@@ -290,8 +387,7 @@ export const Events = [
         name: "ABOUT",
         id: 0,
         image: gaming,
-        content:
-          "",
+        content: "",
       },
       {
         name: "SIZE",
@@ -320,39 +416,36 @@ export const Events = [
     catName: "robotics",
     time: "XYZ PM",
     date: "January 29th",
-
     desc: "to be updated",
     tabs: [
       {
         name: "ABOUT",
         id: 0,
-        image: gaming,
-        content:
-          " ",
+        image: R1,
+        content: " ",
       },
       {
         name: "SIZE",
         id: 1,
-        image: gaming,
+        image: R1,
         content: " 5-6 members ",
       },
       {
         name: "EXPECTED FOOTFALL",
         id: 2,
-        image: gaming,
+        image: R1,
         content: " 10 teams",
       },
       {
         name: "REQUIREMENT",
         id: 3,
-        image: gaming,
-        content:
-          "",
+        image: R1,
+        content: "",
       },
       {
         name: "THEME",
         id: 4,
-        image: gaming,
+        image: R1,
         content: "Related to technology",
       },
     ],
@@ -360,7 +453,7 @@ export const Events = [
 
   {
     id: 9,
-    name: " Robo maze",
+    name: " Robo Race",
     catName: "robotics",
     date: "January 29th",
     time: "to be updated",
@@ -369,33 +462,32 @@ export const Events = [
       {
         name: "ABOUT",
         id: 0,
-        image: gaming,
-        content:
-          "",
+        image: R2,
+        content: "",
       },
       {
         name: "SIZE",
         id: 1,
-        image: gaming,
+        image: R2,
         content: " Individual Participation ",
       },
       {
         name: "EXPECTED FOOTFALL",
         id: 2,
-        image: gaming,
+        image: R2,
         content: " 30+",
       },
       {
         name: "REQUIREMENT",
         id: 3,
-        image: gaming,
+        image: R2,
         content:
           " <div className='text-2xl'>Preference 1: Common room Preference <br/> 2: Any classroom </div>",
       },
       {
         name: "THEME",
         id: 4,
-        image: gaming,
+        image: R2,
         content: "Related to corporate meeting",
       },
     ],
@@ -406,41 +498,41 @@ export const Events = [
     name: "ROBO SOCCER",
     catName: "robotics",
     date: "January 29th",
-    time: "To be updated",
+    time: "2PM - 5PM",
     desc: "TO be updated",
     tabs: [
       {
         name: "ABOUT",
         id: 0,
-        image: robosocimag,
+        image: R3,
         content:
-          "<div className='text-2xl'>This Event has two rounds: <br/>Round 1: Follow the Tale Each team will be shown 4 pictures. They have to explain the situation shown and keep connecting the situations together as the pictures are shown.<br/>Round 2: Defend the devil Each team will be given a controversial statement and they have to defend the  statements with proper arguments.</div> ",
+          "<div className='text-2xl'>📍 Venue: Maharaja Surajmal Institute of Technology (MSIT)<br/>📅 Date: 29th January 2025 (Day 1) <br/>🕒 Time: 2 PM to 4 PM</div> ",
       },
       {
-        name: "SIZE",
+      name: "REGISTRATION FEE",
         id: 1,
-        image: robot,
-        content: " 3 ",
+        image: R3,
+        content: "Robot Soccer ( 100₹ )",
       },
       {
         name: "EXPECTED FOOTFALL",
         id: 2,
-        image: robot,
+        image: R3,
         content: " 15 teams",
       },
       {
         name: "REQUIREMENT",
         id: 3,
-        image: robot,
+        image: R3,
         content:
-          " <div className='text-2xl'> <h1 className='font-bold'>Venue:</h1> Any classroom with projector<br/><h1 className='font-bold'>Coordinators Required:</h1> 4-5 <br/><h1 className='font-bold'> Equipment: </h1> Mic, Scorecard, Posters, Decorative Material<br/></div>",
+          " ",
       },
       {
         name: "RULE",
         id: 4,
-        image: gaming,
+        image: R3,
         content:
-          "<div className=''> Use of foul language is prohibited. <br/>Vulgar content will not be appreciated. <br/>Each team will be scored by every other team and the judges. After round 1, 5 teams will be selected based on the scores scored.</div>",
+          "",
       },
     ],
   },
@@ -459,15 +551,13 @@ export const Events = [
         id: 0,
         content:
           "𝗧𝗵𝗲 𝗧𝗲𝗰𝗵 & 𝗧𝗿𝗲𝗻𝗱𝘀 𝗤𝘂𝗶𝘇 is here! Are you ready to challenge your tech knowledge and compete with the brightest minds? 🧠💻 <br> Whether you're a tech newbie or a seasoned pro, this is your chance to test your knowledge in 𝗯𝗮𝘀𝗶𝗰 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀, 𝘁𝗲𝗰𝗵 𝗰𝘂𝗿𝗿𝗲𝗻𝘁 𝗮𝗳𝗳𝗮𝗶𝗿𝘀, 𝘁𝗲𝗰𝗵 𝗵𝗶𝘀𝘁𝗼𝗿𝘆, 𝗮𝗻𝗱 𝗺𝗼𝗿𝗲! <br/> 📅 Date: 29th January 2025 <br/> 📍 Venue: MSIT, Janakpuri <br/> 👥 Team Size: 1 to 2 members <br/> 🎓 Eligibility: Open to all college students",
-      }
-      ,
+      },
       {
         name: "PRIZES",
         image: T1,
         id: 1,
         content:
-          " <div className= 'font-bold text-white'> Prizes Await You!  <br/> 🥇 Winner: Cash Prize + Certificate <br/>🎖 Top 10 Teams: Certificates "
-
+          " <div className= 'font-bold text-white'> Prizes Await You!  <br/> 🥇 Winner: Cash Prize + Certificate <br/>🎖 Top 10 Teams: Certificates ",
       },
       {
         name: "GUIDELINES",
@@ -531,22 +621,19 @@ export const Events = [
         name: "ABOUT",
         image: T3,
         id: 0,
-        content:
-          "",
+        content: "",
       },
       {
         name: "PROBLEM STATEMENTS",
         image: T3,
         id: 1,
-        content:
-          "",
+        content: "",
       },
       {
         name: "GUIDELINES",
         image: T3,
         id: 2,
-        content:
-          "",
+        content: "",
       },
       {
         name: "VENUE",
@@ -557,26 +644,26 @@ export const Events = [
       },
     ],
   },
- 
+
   {
-        id: 14,
-        tabs: [
-          {
-            image: robot,
-            id: 0,
-          },
-          {
-            image: technical,
-            id: 1,
-          },
-          {
-            image: gaming,
-            id: 2,
-          },
-          {
-            image: fun,
-            id: 3,
-          },
+    id: 14,
+    tabs: [
+      {
+        image: robot,
+        id: 0,
+      },
+      {
+        image: technical,
+        id: 1,
+      },
+      {
+        image: gaming,
+        id: 2,
+      },
+      {
+        image: fun,
+        id: 3,
+      },
     ],
   },
 ];

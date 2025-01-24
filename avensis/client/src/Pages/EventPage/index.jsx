@@ -49,34 +49,33 @@ const Index = () => {
       {/* <img src={image5} className="absolute w-full z-[-1] opacity-50"/> */}
       <div className='w-full mb-12'>
         <div className='w-full md:w-[70%] mx-auto md:flex mt-12'>
-          <div className='w-[95%] md:w-[30%] text-center'>
-            <img className='w-[90%] mx-auto' src={technical[0].tabs[currentTab].image} alt="" />
-            <h1 className='text-[roboto] text-2xl mt-6'>{technical[0].name}</h1>
-            <h1 className='text-[roboto] text-2xl mt-2'>{technical[0].desc}</h1>
-            {/* <button className='text-2xl w-[80%] mx-[10%] py-[1px] mt-4 border-2 border-white rounded-lg'>Details</button> */}
-            { technical[0].link && <a href={technical[0].link}><button className='text-2xl w-[80%] mx-[10%] py-[1px] mt-4 border-2 border-white rounded-lg'>Register</button></a> }
+          <div className='w-[95%] md:w-[30%] text-center bg-[#1D1332] rounded-lg shadow-lg p-4'>
+            <img className='w-[90%] mx-auto rounded-lg' src={technical[0].tabs[currentTab].image} alt="" />
+            <h1 className='text-[roboto] text-2xl mt-6 text-white'>{technical[0].name}</h1>
+            <h1 className='text-[roboto] text-xl mt-2 text-gray-300'>{technical[0].desc}</h1>
+            {technical[0].link && (
+              <a href={technical[0].link}>
+                <button className='text-2xl w-[80%] mx-[10%] py-2 mt-4 bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-lg shadow-md hover:from-purple-600 hover:to-indigo-600 transition-all duration-300'>
+                  Register
+                </button>
+              </a>
+            )}
           </div>
           <div className='w-[100%] md:w-[70%] pl-2 md:pl-16'>
-            <h1></h1>
-          <div className='flex mt-8'>
-                  {display3()}
-                  <div className='w-[4px]'></div>
-                    {
-                        technical[0].tabs.map((tab,i)=>(
-                          cat(tab,i)
-                        ))
-                    }
-                </div>
-            <div className='border-2 border-white border-r-[8px] p-4 text-lg rounded-r-lg'>
-              <p>
-                {/* {tabs[currentTab].content} */}
-                {parse( technical[0].tabs[currentTab].content)}
+            <h1 className='text-3xl font-bold text-white mb-4'>Event Details</h1>
+            <div className='flex mt-8'>
+              {display3()}
+              <div className='w-[4px]'></div>
+              {technical[0].tabs.map((tab, i) => cat(tab, i))}
+            </div>
+            <div className='border-2 border-white border-r-[8px] p-4 text-lg rounded-r-lg bg-[#1D1332] shadow-lg'>
+              <p className='text-white'>
+                {parse(technical[0].tabs[currentTab].content)}
               </p>
             </div>
-
           </div>
         </div> 
-        </div> 
+      </div> 
       <Footer/>
     </div>
   )
