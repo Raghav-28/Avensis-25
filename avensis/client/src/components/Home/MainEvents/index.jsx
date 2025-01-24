@@ -1,10 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
 import image1 from '../../../Images/Sphere-Black-Matte1(1).png'
-import image2 from '../../../Images/unsplash_hgO1wFPXl3I.png'
-import image3 from '../../../Images/shape5.png'
-import image5 from '../../../Images/vector.png'
-import image6 from '../../../Images/events1.png'
-import image7 from '../../../Images/unsplash_eCktzGjC-iU.png'
 import { StyleSheet, css } from 'aphrodite';
 import { fadeInLeft, fadeInRight } from 'react-animations';
 import { useInView } from 'react-intersection-observer';

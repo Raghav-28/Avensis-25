@@ -12,7 +12,6 @@ import G4 from "../Images/G-4.jpeg";
 import R1 from "../Images/R-1.jpeg";
 import R2 from "../Images/R-2.jpeg";
 import R3 from "../Images/R-3.jpeg";
-import robosocimag from "../Images/Events/Robotics/Pos_RoboSoccer_5.png";
 
 export const Events = [
   {
@@ -144,7 +143,7 @@ export const Events = [
   {
     id: 3,
     name: "Asphalt 9 Legends",
-    desc: "🚗💨 Rev Your Engines for the Asphalt Tournament at Avensis'25! 🎮🔥",
+    desc: "",
     date: "January 29th",
     time: "10 AM onwards",
     image: G1,
@@ -170,7 +169,7 @@ export const Events = [
         image: G1,
         id: 2,
         content:
-          "<div className='font-bold text-white'>Hack Avensis Guidelines:</div><br/><br/><div>-<li>Eligibility: Open to all registered players using their own devices.<li>Format: Single-player Time Trial or Multiplayer (decided by organizers). Tracks and cars will be pre-selected.<li>Entry Fee: Rs. 50<li>Prize Pool: Rs. 2250.<li>Gameplay: No hacks, cheats, or modded apps allowed. Default in-game settings only.<li>Timing: Be present 30 minutes before your slot; latecomers forfeit their turn.<li>Conduct: Respect others; misconduct or unfair play leads to disqualification.<li>Scoring: Winners are based on fastest completion time or points.<li>Devices: Ensure your device is charged and functioning. No extra time for issues.<li>Organizer's Decision: Final and binding.</div>",
+          "<div>-<li>Eligibility: Open to all registered players using their own devices.<li>Format: Single-player Time Trial or Multiplayer (decided by organizers). Tracks and cars will be pre-selected.<li>Entry Fee: Rs. 50<li>Prize Pool: Rs. 2250.<li>Gameplay: No hacks, cheats, or modded apps allowed. Default in-game settings only.<li>Timing: Be present 30 minutes before your slot; latecomers forfeit their turn.<li>Conduct: Respect others; misconduct or unfair play leads to disqualification.<li>Scoring: Winners are based on fastest completion time or points.<li>Devices: Ensure your device is charged and functioning. No extra time for issues.<li>Organizer's Decision: Final and binding.</div>",
       },
       {
         name: "VENUE",
@@ -204,7 +203,7 @@ export const Events = [
         id: 1,
         image: G4,
         content:
-          "   <span className=' text-[#4A9FA0] font-bold '> Team Size: </span>  maximum 4",
+          " <span className=' text-[#4A9FA0] font-bold '> Team Size: </span>  maximum 4",
       },
       {
         name: "Rules",
@@ -265,6 +264,7 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
     id: 5,
     name: "CHESS",
     catName: "gaming",
+    link: "https://forms.gle/3EvrCeSY25gjEKsr9",
     image: G2,
     date: "January 29th",
     time: "10 AM ONWARDS",
@@ -282,7 +282,7 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
         id: 1,
         image: G2,
         content:
-          "<a href='https://drive.google.com/file/d/1b7f3PkWwCjc6-2UgNflJsvot5_gNr2Z0/view'>Click here to view the rules</a>",
+          "<a href='https://drive.google.com/file/d/1b7f3PkWwCjc6-2UgNflJsvot5_gNr2Z0/view'>Click here to view the rules: https://drive.google.com/file/d/1b7f3PkWwCjc6-2UgNflJsvot5_gNr2Z0/view </a>",
       },
       {
         name: "CONTACT",
@@ -375,7 +375,7 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
       },
     ],
   },
-  {
+  { 
     id: 7,
     name: "Viral Video Creation",
     catName: "gaming",
@@ -412,39 +412,47 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
   },
   {
     id: 8,
-    name: "Line Following",
+    name: "Line Follower",
+    image: R1,
     catName: "robotics",
-    time: "XYZ PM",
-    date: "January 29th",
-    desc: "to be updated",
+    link: "https://forms.gle/faqbUGvFffdazHHv6",
+    time: "1PM ONWARDS",
+    date: "January 30th",
+    desc: "",
     tabs: [
       {
         name: "ABOUT",
         id: 0,
         image: R1,
-        content: " ",
+        content: " Design a bot that can follow a line with absolute precision and speed. Compete against the best and see if your bot can lead the pack to victory! <br/>📍 Venue: Maharaja Surajmal Institute of Technology (MSIT) <br/>📅 Date: 30th January 2025 (Day 2) <br/>🕒 Time: 1 PM onwards",
       },
+      {
+        name: "REGISTRATION FEE",
+          id: 1,
+          image: R1,
+          content: "Line follower: 50₹ ",
+        },
       {
         name: "SIZE",
-        id: 1,
-        image: R1,
-        content: " 5-6 members ",
-      },
-      {
-        name: "EXPECTED FOOTFALL",
         id: 2,
         image: R1,
-        content: " 10 teams",
+        content: "Each team must consist of a minimum of 1 and a maximum of 4 members. ",
+      },
+      {
+        name: "RULES",
+        id: 3,
+        image: R1,
+        content: "Even robots follow the rules, do you? https://1drv.ms/w/c/daf0b316384c0194/EbanR3OG6btMvrdwUBQfWvEBDOYpEbeLBGhiI2bf29B5SQ?e=Z6kdlA",
       },
       {
         name: "REQUIREMENT",
-        id: 3,
+        id: 4,
         image: R1,
-        content: "",
+        content: "Just click the link and you'll found all your answers. https://1drv.ms/w/c/daf0b316384c0194/EbanR3OG6btMvrdwUBQfWvEBDOYpEbeLBGhiI2bf29B5SQ?e=Z6kdlA",
       },
       {
         name: "THEME",
-        id: 4,
+        id: 5,
         image: R1,
         content: "Related to technology",
       },
@@ -456,39 +464,41 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
     name: " Robo Race",
     catName: "robotics",
     date: "January 29th",
-    time: "to be updated",
-    desc: "Prizes: xyz xyz updated",
+    image: R2,
+    time: "12PM - 2PM",
+    link: "https://forms.gle/faqbUGvFffdazHHv6",
+    desc: "",
     tabs: [
       {
         name: "ABOUT",
         id: 0,
         image: R2,
-        content: "",
+        content: " Robot-Race is an exhilarating college event challenging participants to create and control robot for navigating a complex track. This rulebook establishes guidelines for a fair competition.<br/>📍 Venue: Maharaja Surajmal Institute of Technology (MSIT) <br/>📅 Date: 29th January 2025 (Day 1) <br/>🕒 Time: 11 AM to 2 PM",
       },
+      {
+        name: "REGISTRATION FEE",
+          id: 1,
+          image: R2,
+          content: "RoboRace: 100 ₹ ",
+        },
       {
         name: "SIZE",
-        id: 1,
-        image: R2,
-        content: " Individual Participation ",
-      },
-      {
-        name: "EXPECTED FOOTFALL",
         id: 2,
         image: R2,
-        content: " 30+",
+        content: "Each team must consist of a minimum of 1 and a maximum of 4 members.",
+      },
+      {
+        name: "RULES",
+        id: 3,
+        image: R2,
+        content: " Even robots follow rules—do you? https://1drv.ms/w/c/daf0b316384c0194/EShylCbIYPVCrHEgYQs2A_kBMVYkURlzfq-9YUZqWC5BWQ?e=bNks9o",
       },
       {
         name: "REQUIREMENT",
-        id: 3,
-        image: R2,
-        content:
-          " <div className='text-2xl'>Preference 1: Common room Preference <br/> 2: Any classroom </div>",
-      },
-      {
-        name: "THEME",
         id: 4,
         image: R2,
-        content: "Related to corporate meeting",
+        content:
+          "Waiting for what? Still not clicked the link? https://1drv.ms/w/c/daf0b316384c0194/EShylCbIYPVCrHEgYQs2A_kBMVYkURlzfq-9YUZqWC5BWQ?e=bNks9o",
       },
     ],
   },
@@ -496,43 +506,45 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
   {
     id: 10,
     name: "ROBO SOCCER",
+    image: R3,
+    link: "https://forms.gle/faqbUGvFffdazHHv6",
     catName: "robotics",
     date: "January 29th",
     time: "2PM - 5PM",
-    desc: "TO be updated",
+    desc: "",
     tabs: [
       {
         name: "ABOUT",
         id: 0,
         image: R3,
         content:
-          "<div className='text-2xl'>📍 Venue: Maharaja Surajmal Institute of Technology (MSIT)<br/>📅 Date: 29th January 2025 (Day 1) <br/>🕒 Time: 2 PM to 4 PM</div> ",
+          "<div className='text-2xl'>📍 Venue: Maharaja Surajmal Institute of Technology (Ground) <br/>📅 Date: 29th January 2025 (Day 1) <br/>🕒 Time: 2 PM to 4 PM</div> ",
       },
       {
       name: "REGISTRATION FEE",
         id: 1,
         image: R3,
-        content: "Robot Soccer ( 100₹ )",
+        content: "Robot Soccer : 100₹ ",
       },
       {
-        name: "EXPECTED FOOTFALL",
+        name: "SIZE",
         id: 2,
         image: R3,
-        content: " 15 teams",
+        content: "Each team must consist of 2 to 4 members.",
       },
       {
         name: "REQUIREMENT",
         id: 3,
         image: R3,
         content:
-          " ",
+          "Don't forget to check : https://1drv.ms/w/c/daf0b316384c0194/EfNt4Pjoya5Mn-sNbBcPQjYB9CrCQJfeDZnVO4Y0qrweKQ?e=3LQGcQ",
       },
       {
         name: "RULE",
         id: 4,
         image: R3,
         content:
-          "",
+          " Even robots follow rules—do you? https://1drv.ms/w/c/daf0b316384c0194/EfNt4Pjoya5Mn-sNbBcPQjYB9CrCQJfeDZnVO4Y0qrweKQ?e=3LQGcQ ",
       },
     ],
   },

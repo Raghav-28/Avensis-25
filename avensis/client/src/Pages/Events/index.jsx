@@ -4,8 +4,6 @@ import Footer from '../../components/common/Footer'
 import shape3 from '../../Images/shape3.png'
 import shape2 from '../../Images/shape2.png'
 import EventCard from '../../components/Events/EventCard'
-import image from '../../Images/Speakers/speaker1.png'
-import circle from '../../Images/circle.png'
 import { fadeInLeftBig ,fadeInRightBig ,tada ,flash } from 'react-animations';
 import { StyleSheet, css } from 'aphrodite';
 import { Events } from '../../config/events.js'
@@ -42,7 +40,7 @@ const Index = () => {
         },
       });
 
-      const literary = Events.slice(7,11);
+      const literary = Events.slice(8,11);
       const technical = Events.slice(11,14);
       const gaming = Events.slice(3,7);
       { /* const creativity = Events.slice(0,3); */}
