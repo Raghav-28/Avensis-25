@@ -2,6 +2,9 @@ import robot from "../Images/Robot.jpg";
 import technical from "../Images/download.gif";
 import fun from "../Images/fun.jpg";
 import gaming from "../Images/gaming.jpg";
+import T1 from "../Images/T-1.jpg";
+import T2 from "../Images/T-2.jpeg";
+import T3 from "../Images/T-3.jpeg";
 import robosocimag from "../Images/Events/Robotics/Pos_RoboSoccer_5.png";
 
 export const Events = [
@@ -184,7 +187,7 @@ export const Events = [
         id: 0,
         image: robot,
         content:
-          "ro be updated to be updated ",
+          "to be updated to be updated ",
       },
       {
         name: "SIZE",
@@ -194,17 +197,17 @@ export const Events = [
           "   <span className=' text-[#4A9FA0] font-bold '> Team Size: </span>  maximum 4",
       },
       {
-        name: "EXPECTED FOOTFALL",
+        name: "To be updated",
         id: 2,
         image: robot,
         content: " 300-400 ",
       },
       {
-        name: "REQIREMENT",
+        name: "REQUIREMENT",
         id: 3,
         image: robot,
         content:
-          "<div className='text-2xl'>A LAB <br/>MOBILE PHONES (to be arranged by students) <br/>Wi-Fi connection <br/></div>",
+          "<div className='text-2xl'>A LAB</div>",
       },
     ],
   },
@@ -224,17 +227,17 @@ export const Events = [
           "xyx xyz dshfcojoxzmdj",
       },
       {
-        name: "EXPECTED FOOTFALL",
+        name: "",
         id: 1,
         image: gaming,
         content: " 300-400 ",
       },
       {
-        name: "REQIREMENT",
+        name: "REQUIREMENT",
         id: 2,
         image: gaming,
         content:
-          " <div className='text-2xl'>Venue:LAB <br/>EQUIPMENTS: WIFI, EXTENSION CORDS, MOBILE PHONES(PLAYER WILL CARRY THIER OWN) <br/></div>",
+          " <div className='text-2xl'>Venue:LAB <br/></div>",
       },
     ],
   },
@@ -251,7 +254,7 @@ export const Events = [
         id: 0,
         image: gaming,
         content:
-          "EACH TEAM WILL BE CONSISTING OF 5 PLAYERS EACH. THE TEAMS WILL BE PLAYING AGAINST EACH OTHER IN 5 V 5 GAME. THE FIRST TEAM TO WIN 13 ROUNDS WINS THE GAME AND WILL BE QUALIFIED FOR THE NEXT ROUND.",
+          "",
       },
       {
         name: "SIZE",
@@ -267,11 +270,11 @@ export const Events = [
         content: " 15 teams ",
       },
       {
-        name: "REQIREMENT",
+        name: "REQUIREMENT",
         id: 3,
         image: gaming,
         content:
-          "<div className='text-2xl'> <span className=' text-[#4A9FA0] font-bold '> Venue: </span> LAB <br/>EQUIPMENTS: WIFI, EXTENSION CORDS, MOBILE PHONES(PLAYER WILL CARRY THIER OWN) <br/></div>",
+          "<div className='text-2xl'> <span className=' text-[#4A9FA0] font-bold '> Venue: </span> LAB <br/ <br/></div>",
       },
     ],
   },
@@ -288,7 +291,7 @@ export const Events = [
         id: 0,
         image: gaming,
         content:
-          "There will be 10 student playing against each other in a server .The last student surviving against all will be declared as winner",
+          "",
       },
       {
         name: "SIZE",
@@ -325,7 +328,7 @@ export const Events = [
         id: 0,
         image: gaming,
         content:
-          "There will be 100 students fighting against each other in team of four inside a server room to be declared as champions. The last team standing will be the champions . ",
+          " ",
       },
       {
         name: "SIZE",
@@ -344,7 +347,7 @@ export const Events = [
         id: 3,
         image: gaming,
         content:
-          " <div className='text-2xl'>We will keep track of time till the last player on the team is left.<br/>The team which kept the discussion going on for the longest wins.<br/>The top 2 teams will be announced as winners at the end of the day.<br/><div className='flex'><div className='font-bold'>WARNING:</div><p> If the player takes more than 5 seconds to speak then a penalty of 15 seconds will be added to the total time.</p></div></div>",
+          "",
       },
       {
         name: "THEME",
@@ -368,7 +371,7 @@ export const Events = [
         id: 0,
         image: gaming,
         content:
-          "Each participant will be made to represent a buyer and a seller, they will be given a product at some base price and both have to negotiate on that base price. Buyer will target to buy the product at lowest possible price in accordance with the base price and seller will negotiate to sell the product as high as possible. Event will consist of multiple rounds at increasing difficulty level.",
+          "",
       },
       {
         name: "SIZE",
@@ -426,7 +429,7 @@ export const Events = [
         content: " 15 teams",
       },
       {
-        name: "REQIREMENT",
+        name: "REQUIREMENT",
         id: 3,
         image: robot,
         content:
@@ -443,116 +446,111 @@ export const Events = [
   },
   {
     id: 11,
-    name: "Tech Quiz",
-    desc: "PRIZE: TO be updated ",
+    name: "TECH PULSE",
+    desc: "Cash Prize upto 2500 INR ",
     date: "January 29th",
-    time: "10:00am Onwards",
-    link: "https://unstop.com/hackathons/algohunt-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-881841",
+    time: "12 Noon",
+    link: "https://forms.gle/txS8SFN4F7dDiwYa6",
     catName: "technical",
     tabs: [
       {
         name: "ABOUT",
-        image: gaming,
+        image: T1,
         id: 0,
         content:
-          "Algo Hunt by geek room is a realm of data strcutres and algorithms where participants will compete to win exciting przies by their problem solving capabilities",
+          "𝗧𝗵𝗲 𝗧𝗲𝗰𝗵 & 𝗧𝗿𝗲𝗻𝗱𝘀 𝗤𝘂𝗶𝘇 is here! Are you ready to challenge your tech knowledge and compete with the brightest minds? 🧠💻 <br> Whether you're a tech newbie or a seasoned pro, this is your chance to test your knowledge in 𝗯𝗮𝘀𝗶𝗰 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲𝘀, 𝘁𝗲𝗰𝗵 𝗰𝘂𝗿𝗿𝗲𝗻𝘁 𝗮𝗳𝗳𝗮𝗶𝗿𝘀, 𝘁𝗲𝗰𝗵 𝗵𝗶𝘀𝘁𝗼𝗿𝘆, 𝗮𝗻𝗱 𝗺𝗼𝗿𝗲! <br/> 📅 Date: 29th January 2025 <br/> 📍 Venue: MSIT, Janakpuri <br/> 👥 Team Size: 1 to 2 members <br/> 🎓 Eligibility: Open to all college students",
       }
       ,
       {
         name: "PRIZES",
-        image: gaming,
-        id: 2,
+        image: T1,
+        id: 1,
         content:
-          " <div className= 'font-bold text-white'>  First Prize: ₹6000    <br/>         <br/>    </div>",
-      },
-      {
-        name: "SPEAKERS",
-        image: robot,
-        id: 3,
-        content: " Coming Soon ",
+          " <div className= 'font-bold text-white'> Prizes Await You!  <br/> 🥇 Winner: Cash Prize + Certificate <br/>🎖 Top 10 Teams: Certificates "
+
       },
       {
         name: "GUIDELINES",
-        image: robot,
-        id: 4,
+        image: T1,
+        id: 2,
         content:
-          "There is no restriction on the type of hack you build or who the hack is for software , prototypes and ideas hack are all allowed <br/> Participants are not allowed to start their project before the hackathon starts <br/> you are not allowed to reuse code from existing projects <br/> Usage of open-source libraries/packages is allowed <br/> Participants must bring their own laptop",
+          "<li> Each team must consist of 1 or 2 student members only. <li>Ensure all details are filled in carefully before submission.<li>Double-check your contact details to receive important updates.",
       },
     ],
   },
   {
     id: 12,
-    name: "DSA Marathon",
-    desc: "PRIZE: To be updated",
+    name: "CODE COMBAT",
+    desc: "Cash Prize upto 5000 INR",
     date: "January 29th",
-    time: "to be updated",
-    link: "https://unstop.com/p/codecrunch-dsa-marathon-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-882663",
+    time: "11 AM",
+    link: "https://forms.gle/t5y4WmXGJwcidpfu5",
     catName: "technical",
     tabs: [
       {
         name: "ABOUT",
-        image: gaming,
+        image: T2,
         id: 0,
         content:
-          "Welcome to the Labyrinth of programming residing coding challengers with various hit points, defeat the challenger and heal yourself as well as win existing rewards.<br/><br/>Once you enter the Labyrinth you will be given HP of 300s and facing the 1st coding challenger, once you beat the challenger you will get extra HP of 300s, similarly for beating the 2nd challenger you will be given the same amount of HP, but the excitement begins as you beat the 3rd challenger, this time you will be winning a reward as well and gain HP of 420s, and for beating the 4th challenger you will be getting a HP of 600s, bigger rewards and a gateway to beat the ultimate challenger, defeat him you shall be known as “THE CONQUEROR”.",
+          "Welcome to Code Combat 2025! Do you have what it takes to outsmart your peers and emerge victorious in the thrilling realm of Data Structures and Algorithms? This is your opportunity to test your problem-solving prowess, showcase your skills, and earn exclusive recognition among the brightest coding minds! <br/> 📅 Date: 29th January 2025 <br/> 📍 Venue: MSIT, Janakpuri <br/> 👥 Team Size: 1 to 2 members <br/> 🎓 Eligibility: Open to all college students",
       },
       {
-        name: "NOTE",
-        image: gaming,
+        name: "PRIZES",
+        image: T2,
         id: 1,
         content:
-          " The Labyrinth is considered as one of the most lethal places by the scholars, which is yet to be conquered, so it’s essential to enter it with your partner.<br/>Once your HP reaches zero you won’t be able to respawn.<br/>Each health point is equal to 1 second of life.",
+          " 𝐏𝐫𝐢𝐳𝐞𝐬 𝐀𝐰𝐚𝐢𝐭 𝐘𝐨𝐮! <br/> 🥇 Winners & Runner-Up : Cash Prize + Certificate <br/> 🎖 Top 10 Teams: Certificates ",
       },
       {
         name: "TIPS",
-        image: gaming,
+        image: T2,
         id: 2,
         content:
           " <div className= 'font-bold text-white'> Try to beat the challengers as fast as possible as it will help you to gain a chance to beat the ultimate challenger.</div>",
       },
       {
         name: "VENUE",
-        image: gaming,
+        image: T2,
         id: 3,
         content:
-          " <div className= 'font-bold text-white'> MSIT , C-4 Janakpuri </div>",
+          " <div className= 'font-bold text-white'> 𝗠𝗦𝗜𝗧❟ 𝗝𝗮𝗻𝗮𝗸𝗽𝘂𝗿𝗶   </div>",
       },
     ],
   },
 
   {
     id: 13,
-    name: "HACKWIE",
-    desc: "Hackathon",
-    date: "January 29th",
+    name: "HACKWIE 3.0",
+    desc: "Cash Prize upto 25000 INR",
+    date: "29th-30th January",
     time: "9AM",
-    link: "https://unstop.com/hackathons/hackavensis-2024-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-881791",
+    link: "",
     catName: "technical",
     tabs: [
       {
         name: "ABOUT",
-        image: gaming,
+        image: T3,
         id: 0,
         content:
-          "<span className='text-[#4A9FA0] font-semibold'>Welcome to HACK AVENSIS!</span><br/><br/>Hack Avensis is more than just a hackathon; it's an innovation hub where ideas meet execution and dreams take flight. Join us for an adrenaline-fueled journey into the world of hacking, where creativity, collaboration, and code converge to solve real-world problems.<br/><br/>This hackathon isn't just for seasoned developers; it's for anyone with a passion for problem-solving and a drive to make a difference. Whether you're a coding whiz or a newbie eager to learn, there's a place for you at HACK AVENSIS.<br/><br/>Get ready to immerse yourself in a whirlwind of innovation, mentorship, and excitement. Together, let's code, create, and change the world, one line at a time!",
+          "",
       },
       {
         name: "PROBLEM STATEMENTS",
-        image: gaming,
+        image: T3,
         id: 1,
         content:
-          "<div className='font-bold'><ul><li>1. Enhancing Healthcare Accessibility through Telemedicine Solutions.</li><br/><li>2. Sustainable Solutions for Waste Management in Urban Areas.</li><br/><li>3. Revolutionizing Online Education Platforms for Enhanced Learning Experience.</li><br/><li>4. Optimizing Supply Chain Management for Improved Efficiency.</li></ul></div><br/>Stay updated on Unstop site for the detailed problem statements. Register now to secure your spot and receive all necessary updates!",
+          "",
       },
       {
         name: "GUIDELINES",
-        image: gaming,
+        image: T3,
         id: 2,
         content:
-          "<div className='font-bold text-white'>Hack Avensis Guidelines:</div><br/><br/><div>- Teams must consist of 2-4 members, with diverse skill sets encouraged for optimal collaboration.<br/><br/>- Participants must register using the provided link before the event date to ensure seamless participation.<br/><br/>- Code submissions must adhere to ethical standards and respect intellectual property rights.<br/><br/>- Participants are encouraged to leverage open-source resources and APIs, but plagiarism is strictly prohibited.<br/><br/>- Each team will have designated time slots for presentations and demos, with judges evaluating projects based on creativity, functionality, and impact.<br/><br/>- Collaboration and teamwork are key; foster a supportive environment, share knowledge, and have fun hacking!</div>",
+          "",
       },
       {
         name: "VENUE",
-        image: gaming,
+        image: T3,
         id: 3,
         content:
           "<div className='text-[#4A9FA0] text-white'><span className='font-bold'>VENUE: 105 105 A 106 B </span><br/></div>",
@@ -562,7 +560,6 @@ export const Events = [
  
   {
         id: 14,
-        link: "https://unstop.com/p/cupid-ai-avensis-2024-maharaja-surajmal-institute-of-technology-msit-new-delhi-883324",
         tabs: [
           {
             image: robot,

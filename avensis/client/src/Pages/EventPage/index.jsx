@@ -1,13 +1,9 @@
 import React from 'react'
 import Navbar from '../../components/common/Navbar'
 import Footer from '../../components/common/Footer'
-import eventImage from "../../Images/unsplash_hgO1wFPXl3I.png"
 import { useState, useEffect } from 'react';
-import image1 from '../../Images/shape3.png'
 import image2 from '../../Images/shape2.png'
-import image3 from '../../Images/circle.png'
 import image4 from '../../Images/Sphere-Black-Matte1(1).png'
-import image5 from '../../Images/DecorativeLine.png'
 import './../../style.css';
 import parse from 'html-react-parser';
 import { useParams } from 'react-router-dom';
