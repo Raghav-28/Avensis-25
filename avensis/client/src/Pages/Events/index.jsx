@@ -45,7 +45,7 @@ const Index = () => {
       const literary = Events.slice(7,11);
       const technical = Events.slice(11,14);
       const gaming = Events.slice(3,7);
-      const creativity = Events.slice(0,3);
+      { /* const creativity = Events.slice(0,3); */}
 
 
   return (
@@ -124,9 +124,10 @@ const Index = () => {
             }
         </div>
       </div>
-      <div class="event-theme">
+     {
+     /* <div class="event-theme">
             {/* <img src={circle} class="circle1"/>
-            <img src={circle} class="circle2"/> */}
+            <img src={circle} class="circle2"/> }
           <span class="eventstitle">FUN AND CREATIVITY</span>
           <div class="event-boxes">
             {
@@ -145,6 +146,7 @@ const Index = () => {
             }
         </div>
       </div>
+      */}
       </div>
     
       <Footer/>
