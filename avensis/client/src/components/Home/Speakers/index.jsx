@@ -3,7 +3,6 @@ import SpeakerCard from "./SpeakerCard";
 import SponsorCard from "./SponsorCard";
 import image from "../../../Images/speech.png";
 import Sphere1 from "../../../Images/Sphere-Black-Matte1(1).png";
-import image3 from "../../../Images/companylogo.png";
 import shape3 from "../../../Images/shape3.png";
 import Flapone from "../../../Images/Sponsors/Flapone.jpeg";
 import easemytrip from "../../../Images/Sponsors/easemytrip.png";
