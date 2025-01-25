@@ -54,9 +54,9 @@ const index = () => {
 
   return (
     <div className="w-full">
-      <img src={Sphere1} class="funsphere" />
+      <img src={Sphere1} class="funsphere" alt="sphere1" />
       {/* <img src={DecorativeLine} class="funline mt-[350px] z-[1]"/> */}
-      <img src={shape3} class="funshape"></img>
+      <img src={shape3} class="funshape" alt=""></img>
       <div className="md:mx-[10%]">
         <div className="w-full mb-24">
           <div className="flex flex-wrap justify-around">
@@ -106,25 +106,27 @@ const index = () => {
                 <div className="bg-[#1D1332] flex rounded-lg p-2 md:p-4 w-[360px] md:w-[400px] h-[140px] md:h-[180px] mx-[5%]">
                   <img
                     className="object-cover w-2/3 h-full"
-                    src={Events[14].tabs[0].image}
+                    src={Events[11].tabs[0].image}
                     alt=""
                   />
                   <div className="text-white pl-3 font-[roboto] flex flex-col justify-center w-1/3">
-                  <a href="/events">
-                    <h1 className="text-xl md:text-2xl font-bold">Robotics</h1>
+                    <a href="/events">
+                      <h1 className="text-xl md:text-2xl font-bold">
+                        Robotics
+                      </h1>
                     </a>
                   </div>
                 </div>
                 <div className="bg-[#1D1332] mt-6 md:mt-0 flex rounded-lg p-2 md:p-4 w-[360px] md:w-[400px] h-[140px] md:h-[180px] mx-[5%]">
                   <img
                     className="object-cover w-2/3 h-full"
-                    src={Events[14].tabs[1].image}
+                    src={Events[11].tabs[1].image}
                     alt=""
                   />
                   <div className="text-white pl-3 font-[roboto] flex flex-col justify-center w-1/3">
-                  <a href="/events">
-                    <h1 className="text-2xl font-bold">Technical</h1>
-                  </a>
+                    <a href="/events">
+                      <h1 className="text-2xl font-bold">Technical</h1>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -132,30 +134,32 @@ const index = () => {
 
             <div className="md:ml-[25%] mt-6 md:mt-12">
               <div className="md:flex">
-                <div className="bg-[#1D1332] flex rounded-lg p-2 md:p-4 w-[380px] md:w-[420px] h-[160px] md:h-[200px] mx-[5%]">
+                {/*  <div className="bg-[#1D1332] flex rounded-lg p-2 md:p-4 w-[380px] md:w-[420px] h-[160px] md:h-[200px] mx-[5%]">
                   <img
-                    src={Events[14].tabs[3].image}
+                    src={Events[13].tabs[3].image}
                     className="object-cover w-[60%] h-full"
                     alt=""
                   />
                   <div className="text-white pl-3 font-[roboto] flex flex-col justify-center w-[40%]">
                     <a href="/events">
-                    <h1 className="text-2xl md:text-3xl font-bold">
-                      Fun & Creativity
-                    </h1>
+                      <h1 className="text-2xl md:text-3xl font-bold">
+                        Fun & Creativity
+                      </h1>
                     </a>
                   </div>
-                </div>
+                </div>   */}
                 <div className="mt-6 md:mt-0 bg-[#1D1332] flex rounded-lg p-2 md:p-4 w-[380px] md:w-[420px] h-[160px] md:h-[200px] mx-[5%]">
                   <img
                     className="object-cover w-2/3 h-full"
-                    src={Events[14].tabs[2].image}
+                    src={Events[11].tabs[2].image}
                     alt=""
                   />
                   <div className="text-white pl-3 font-[roboto] flex flex-col justify-center w-1/3">
-                  <a href="/events">
-                    <h1 className="text-2xl font-bold leading-tight">Gaming</h1>
-                  </a>
+                    <a href="/events">
+                      <h1 className="text-2xl font-bold leading-tight">
+                        Gaming
+                      </h1>
+                    </a>
                   </div>
                 </div>
               </div>

@@ -1,10 +1,11 @@
 import robot from "../Images/Robot.jpg";
 import technical from "../Images/download.gif";
-import fun from "../Images/fun.jpg";
+//import fun from "../Images/fun.jpg";
 import gaming from "../Images/gaming.jpg";
 import T1 from "../Images/T-1.jpg";
 import T2 from "../Images/T-2.jpeg";
 import T3 from "../Images/T-3.jpeg";
+import T4 from "../Images/T-4.jpg";
 import G1 from "../Images/G-1.jpeg";
 import G2 from "../Images/G-2.jpeg";
 import G3 from "../Images/G-3.jpeg";
@@ -14,7 +15,7 @@ import R2 from "../Images/R-2.jpeg";
 import R3 from "../Images/R-3.jpeg";
 
 export const Events = [
-  {
+  /*{
     id: 0,
     name: "Creative Canvas",
     catName: "fun_crev",
@@ -138,10 +139,10 @@ export const Events = [
           "<div className='text-[#4A9FA0] text-white'><span className='font-bold'>VENUE: 105 105 A 106 B </span><br/></div>",
       },
     ],
-  },
+  }, */
 
   {
-    id: 3,
+    id: 0,
     name: "Asphalt 9 Legends",
     desc: "",
     date: "January 29th",
@@ -182,7 +183,7 @@ export const Events = [
   },
 
   {
-    id: 4,
+    id: 1,
     name: "BGMI",
     catName: "gaming",
     link: "https://forms.gle/Vfc8329ivE33sgj97",
@@ -209,46 +210,53 @@ export const Events = [
         name: "Rules",
         id: 2,
         image: G4,
-        content: `
-**A- Team Composition:**
+        content: ` <strong>A- Team Composition:</strong>
+          <ul class="list-disc pl-5">
+            <li>Each team must consist of 4 players (no substitutes allowed).</li>
+            <li>All players must use their own devices and accounts.</li>
+          </ul>
+          
+          <strong>B - Game Format:</strong>
+          <ul class="list-disc pl-5">
+            <li>Matches will be conducted in Classic Squad Mode on Erangel or other official maps (details will be shared before the match).</li>
+            <li>All matches will be hosted on a custom room.</li>
+          </ul>
 
-1. Each team must consist of 4 players (no substitutes allowed).
-2. All players must use their own devices and accounts.
+          <strong>C- Gameplay Rules:</strong>
+          <ul class="list-disc pl-5">
+            <li>Emulators are NOT allowed. Only mobile devices are permitted.</li>
+            <li>Use of any hacks, cheats, or third-party tools is strictly prohibited. Violators will be disqualified immediately.</li>
+            <li>Teaming with other squads or engaging in unfair gameplay will lead to disqualification.</li>
+            <li>Players must ensure a stable internet connection. Lag or disconnection issues will not result in a rematch.</li>
+          </ul>
 
-**B - Game Format:**
+          <strong>D- Conduct:</strong>
+          <ul class="list-disc pl-5">
+            <li>Respect fellow players and tournament officials. Toxic behavior, offensive language, or misconduct will not be tolerated.</li>
+            <li>Follow the instructions provided by the tournament organizers at all times.</li>
+          </ul>
 
-1. Matches will be conducted in Classic Squad Mode on Erangel or other official maps (details will be shared before the match).
-2. All matches will be hosted on a custom room.
+          <strong>E- Match Timing:</strong>
+          <ul class="list-disc pl-5">
+            <li>Teams must join the custom room 15 minutes before the match starts. Room ID and password will be shared in advance.</li>
+            <li>Late entries will not be entertained once the match begins.</li>
+          </ul>
 
-**C- Gameplay Rules:**
+          <strong>F- Scoring System:</strong>
+          <ul class="list-disc pl-5">
+            <li>Points will be awarded based on match placement and kills. The detailed point system will be shared before the tournament.</li>
+          </ul>
 
-1. Emulators are NOT allowed. Only mobile devices are permitted.
-2. Use of any hacks, cheats, or third-party tools is strictly prohibited. Violators will be disqualified immediately.
-3. Teaming with other squads or engaging in unfair gameplay will lead to disqualification.
-4. Players must ensure a stable internet connection. Lag or disconnection issues will not result in a rematch.
+          <strong>G - Technical Issues:</strong>
+          <ul class="list-disc pl-5">
+            <li>In case of technical difficulties on the organizer's side, matches will be rescheduled.</li>
+            <li>Any disputes must be reported to the organizers immediately after the match.</li>
+          </ul>
 
-**D- Conduct:**
-
-1. Respect fellow players and tournament officials. Toxic behavior, offensive language, or misconduct will not be tolerated.
-2. Follow the instructions provided by the tournament organizers at all times.
-
-**E- Match Timing:**
-
-1. Teams must join the custom room 15 minutes before the match starts. Room ID and password will be shared in advance.
-2. Late entries will not be entertained once the match begins.
-
-**F- Scoring System:**
-
-1. Points will be awarded based on match placement and kills. The detailed point system will be shared before the tournament.
-
-**G - Technical Issues:**
-
-1. In case of technical difficulties on the organizer's side, matches will be rescheduled.
-2. Any disputes must be reported to the organizers immediately after the match.
-
-**H - Disqualification:**
-
-Failure to adhere to the rules or causing disruption to the event will lead to immediate disqualification.
+          <strong>H - Disqualification:</strong>
+          <ul class="list-disc pl-5">
+            <li>Failure to adhere to the rules or causing disruption to the event will lead to immediate disqualification.</li>
+          </ul>
 `,
       },
       {
@@ -260,8 +268,9 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
       },
     ],
   },
+
   {
-    id: 5,
+    id: 2,
     name: "CHESS",
     catName: "gaming",
     link: "https://forms.gle/3EvrCeSY25gjEKsr9",
@@ -281,20 +290,26 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
         name: "RULES",
         id: 1,
         image: G2,
-        content:
-          "<a href='https://drive.google.com/file/d/1b7f3PkWwCjc6-2UgNflJsvot5_gNr2Z0/view'>Click here to view the rules: https://drive.google.com/file/d/1b7f3PkWwCjc6-2UgNflJsvot5_gNr2Z0/view </a>",
+        content: `
+  <a 
+    href="https://drive.google.com/file/d/1b7f3PkWwCjc6-2UgNflJsvot5_gNr2Z0/view" 
+    className="hover:text-blue-500 transition duration-200 ease-in-out"
+  >
+    Click here to view the rules: https://drive.google.com/file/d/1b7f3PkWwCjc6-2UgNflJsvot5_gNr2Z0/view
+  </a>
+`,
       },
       {
         name: "CONTACT",
         id: 2,
         image: G2,
-        content:
-          " Follow our Instagram Page for more Updates: https://www.instagram.com/avensis_2025?igsh=bzhnZmN1YWcyYXl5 <br/> For any queries, contact: <br/>👤 Akshat : 9818565757 <br/>👤 Vipul : 9650526610",
+        content: ` Follow our Instagram Page for more Updates: <a href="https://www.instagram.com/avensis_2025?igsh=bzhnZmN1YWcyYXl5" className="hover:text-blue-500 transition duration-200 ease-in-out"> https://www.instagram.com/avensis_2025?igsh=bzhnZmN1YWcyYXl5 <a/> <br/> For any queries, contact: <br/>👤 Akshat : 9818565757 <br/>👤 Vipul : 9650526610 `,
       },
     ],
   },
+
   {
-    id: 6,
+    id: 3,
     name: "VALORANT - OMEN'S GAMBIT",
     catName: "gaming",
     inmage: G3,
@@ -375,43 +390,9 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
       },
     ],
   },
-  { 
-    id: 7,
-    name: "Viral Video Creation",
-    catName: "gaming",
-    date: "January 29th",
-    time: "XYZ PM",
-    desc: "",
-    tabs: [
-      {
-        name: "ABOUT",
-        id: 0,
-        image: gaming,
-        content: "",
-      },
-      {
-        name: "SIZE",
-        id: 1,
-        image: gaming,
-        content: " individual",
-      },
-      {
-        name: "EXPECTED FOOTFALL",
-        id: 2,
-        image: gaming,
-        content: " around 300-400 ",
-      },
-      {
-        name: "REQUIREMENT",
-        id: 3,
-        image: gaming,
-        content:
-          " <div className='text-2xl'>   <span className=' text-[#4A9FA0] font-bold '> Venue: </span>  LAB <br/>Mobile phone <br/>wifi-connections</div>",
-      },
-    ],
-  },
+
   {
-    id: 8,
+    id: 4,
     name: "Line Follower",
     image: R1,
     catName: "robotics",
@@ -424,43 +405,27 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
         name: "ABOUT",
         id: 0,
         image: R1,
-        content: " Design a bot that can follow a line with absolute precision and speed. Compete against the best and see if your bot can lead the pack to victory! <br/>📍 Venue: Maharaja Surajmal Institute of Technology (MSIT) <br/>📅 Date: 30th January 2025 (Day 2) <br/>🕒 Time: 1 PM onwards",
+        content:
+          " Design a bot that can follow a line with absolute precision and speed. Compete against the best and see if your bot can lead the pack to victory! <br/>📍 Venue: Maharaja Surajmal Institute of Technology (MSIT) <br/>📅 Date: 30th January 2025 (Day 2) <br/>🕒 Time: 1 PM onwards",
       },
       {
-        name: "REGISTRATION FEE",
-          id: 1,
-          image: R1,
-          content: "Line follower: 50₹ ",
-        },
-      {
         name: "SIZE",
-        id: 2,
+        id: 1,
         image: R1,
-        content: "Each team must consist of a minimum of 1 and a maximum of 4 members. ",
+        content:
+          "Each team must consist of a minimum of 1 and a maximum of 4 members. ",
       },
       {
         name: "RULES",
-        id: 3,
+        id: 2,
         image: R1,
-        content: "Even robots follow the rules, do you? https://1drv.ms/w/c/daf0b316384c0194/EbanR3OG6btMvrdwUBQfWvEBDOYpEbeLBGhiI2bf29B5SQ?e=Z6kdlA",
-      },
-      {
-        name: "REQUIREMENT",
-        id: 4,
-        image: R1,
-        content: "Just click the link and you'll found all your answers. https://1drv.ms/w/c/daf0b316384c0194/EbanR3OG6btMvrdwUBQfWvEBDOYpEbeLBGhiI2bf29B5SQ?e=Z6kdlA",
-      },
-      {
-        name: "THEME",
-        id: 5,
-        image: R1,
-        content: "Related to technology",
+        content: `Even robots follow the rules, do you? <a href='https://1drv.ms/w/c/daf0b316384c0194/EbanR3OG6btMvrdwUBQfWvEBDOYpEbeLBGhiI2bf29B5SQ?e=Z6kdlA' className="hover:text-blue-500 transition duration-200 ease-in-out"> https://1drv.ms/w/c/daf0b316384c0194/EbanR3OG6btMvrdwUBQfWvEBDOYpEbeLBGhiI2bf29B5SQ?e=Z6kdlA <a/>`,
       },
     ],
   },
 
   {
-    id: 9,
+    id: 5,
     name: " Robo Race",
     catName: "robotics",
     date: "January 29th",
@@ -473,38 +438,33 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
         name: "ABOUT",
         id: 0,
         image: R2,
-        content: " Robot-Race is an exhilarating college event challenging participants to create and control robot for navigating a complex track. This rulebook establishes guidelines for a fair competition.<br/>📍 Venue: Maharaja Surajmal Institute of Technology (MSIT) <br/>📅 Date: 29th January 2025 (Day 1) <br/>🕒 Time: 11 AM to 2 PM",
+        content:
+          " Robot-Race is an exhilarating college event challenging participants to create and control robot for navigating a complex track. This rulebook establishes guidelines for a fair competition.<br/>📍 Venue: Maharaja Surajmal Institute of Technology (MSIT) <br/>📅 Date: 29th January 2025 (Day 1) <br/>🕒 Time: 11 AM to 2 PM",
       },
       {
         name: "REGISTRATION FEE",
-          id: 1,
-          image: R2,
-          content: "RoboRace: 100 ₹ ",
-        },
+        id: 1,
+        image: R2,
+        content: "RoboRace: 100 ₹ ",
+      },
       {
         name: "SIZE",
         id: 2,
         image: R2,
-        content: "Each team must consist of a minimum of 1 and a maximum of 4 members.",
+        content:
+          "Each team must consist of a minimum of 1 and a maximum of 4 members.",
       },
       {
         name: "RULES",
         id: 3,
         image: R2,
-        content: " Even robots follow rules—do you? https://1drv.ms/w/c/daf0b316384c0194/EShylCbIYPVCrHEgYQs2A_kBMVYkURlzfq-9YUZqWC5BWQ?e=bNks9o",
-      },
-      {
-        name: "REQUIREMENT",
-        id: 4,
-        image: R2,
-        content:
-          "Waiting for what? Still not clicked the link? https://1drv.ms/w/c/daf0b316384c0194/EShylCbIYPVCrHEgYQs2A_kBMVYkURlzfq-9YUZqWC5BWQ?e=bNks9o",
+        content: `Even robots follow rules—do you? <a href="https://1drv.ms/w/c/daf0b316384c0194/EShylCbIYPVCrHEgYQs2A_kBMVYkURlzfq-9YUZqWC5BWQ?e=bNks9o" className="hover:text-blue-500 transition duration-200 ease-in-out>https://1drv.ms/w/c/daf0b316384c0194/EShylCbIYPVCrHEgYQs2A_kBMVYkURlzfq-9YUZqWC5BWQ?e=bNks9o <a/>`,
       },
     ],
   },
 
   {
-    id: 10,
+    id: 6,
     name: "ROBO SOCCER",
     image: R3,
     link: "https://forms.gle/faqbUGvFffdazHHv6",
@@ -521,7 +481,7 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
           "<div className='text-2xl'>📍 Venue: Maharaja Surajmal Institute of Technology (Ground) <br/>📅 Date: 29th January 2025 (Day 1) <br/>🕒 Time: 2 PM to 4 PM</div> ",
       },
       {
-      name: "REGISTRATION FEE",
+        name: "REGISTRATION FEE",
         id: 1,
         image: R3,
         content: "Robot Soccer : 100₹ ",
@@ -533,23 +493,16 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
         content: "Each team must consist of 2 to 4 members.",
       },
       {
-        name: "REQUIREMENT",
-        id: 3,
-        image: R3,
-        content:
-          "Don't forget to check : https://1drv.ms/w/c/daf0b316384c0194/EfNt4Pjoya5Mn-sNbBcPQjYB9CrCQJfeDZnVO4Y0qrweKQ?e=3LQGcQ",
-      },
-      {
         name: "RULE",
         id: 4,
         image: R3,
-        content:
-          " Even robots follow rules—do you? https://1drv.ms/w/c/daf0b316384c0194/EfNt4Pjoya5Mn-sNbBcPQjYB9CrCQJfeDZnVO4Y0qrweKQ?e=3LQGcQ ",
+        content: `Even robots follow rules—do you? <a href='https://1drv.ms/w/c/daf0b316384c0194/EfNt4Pjoya5Mn-sNbBcPQjYB9CrCQJfeDZnVO4Y0qrweKQ?e=3LQGcQ' className="hover:text-blue-500 transition duration-200 ease-in-out> https://1drv.ms/w/c/daf0b316384c0194/EfNt4Pjoya5Mn-sNbBcPQjYB9CrCQJfeDZnVO4Y0qrweKQ?e=3LQGcQ <a/> `,
       },
     ],
   },
+
   {
-    id: 11,
+    id: 7,
     name: "TECH PULSE",
     desc: "Cash Prize upto 2500 INR ",
     date: "January 29th",
@@ -580,8 +533,9 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
       },
     ],
   },
+
   {
-    id: 12,
+    id: 8,
     name: "CODE COMBAT",
     desc: "Cash Prize upto 5000 INR",
     date: "January 29th",
@@ -621,44 +575,73 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
   },
 
   {
-    id: 13,
+    id: 9,
     name: "HACKWIE 3.0",
+    image: T3,
     desc: "Cash Prize upto 25000 INR",
     date: "29th-30th January",
     time: "9AM",
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSeWpEO3WOvXLtvvO_SQhzOX_F5V70eJ-ceck8FeYDsDbO-GVA/viewform",
     catName: "technical",
     tabs: [
       {
         name: "ABOUT",
         image: T3,
         id: 0,
-        content: "",
-      },
-      {
-        name: "PROBLEM STATEMENTS",
-        image: T3,
-        id: 1,
-        content: "",
+        content: `Don't forget to register folks! <br/> <a href='https://docs.google.com/forms/d/e/1FAIpQLSeWpEO3WOvXLtvvO_SQhzOX_F5V70eJ-ceck8FeYDsDbO-GVA/viewform' className="hover:text-blue-500 transition duration-200 ease-in-out>https://docs.google.com/forms/d/e/1FAIpQLSeWpEO3WOvXLtvvO_SQhzOX_F5V70eJ-ceck8FeYDsDbO-GVA/viewform</a>`,
       },
       {
         name: "GUIDELINES",
         image: T3,
-        id: 2,
-        content: "",
+        id: 1,
+        content:
+          "We’re excited to announce the details for the upcoming hackathon, which will be conducted in hybrid mode:Top 25-30 teams will be shortlisted and invited to the venue on 29th Jan (Day 1). <br/> Teams will code at the venue until 5 PM, after which they will leave the campus and continue coding from home. The hackathon duration is from 12 PM on 29th Jan to 12 PM on 30th Jan. <br/> You must submit your BUIDL before 12 PM on 30th Jan. From 12-2 PM on 30th Jan, teams will showcase their projects to the judging panel and discuss their ideas. Finally, the amazing hackathon winners will be announced at 2 PM on 30th Jan.",
       },
       {
-        name: "VENUE",
+        name: "THEME",
         image: T3,
-        id: 3,
+        id: 2,
         content:
-          "<div className='text-[#4A9FA0] text-white'><span className='font-bold'>VENUE: 105 105 A 106 B </span><br/></div>",
+          "Note: The theme for the hackathon is open. However, if you choose a project related to women empowerment and safety, you’ll be eligible for a unique prize money!",
       },
     ],
   },
 
   {
-    id: 14,
+    id: 10,
+    name: "UXcelerate",
+    image: T4,
+    desc: "CASH PRIZE UPTO 2000 Rs",
+    date: "January 30th",
+    time: "11:00 AM",
+    link: "https://forms.gle/vEZGSb6UWHryvEoF6",
+    catName: "technical",
+    tabs: [
+      {
+        name: "ABOUT",
+        image: T4,
+        id: 0,
+        content: `🎨 𝐔𝐗𝐜𝐞𝐥𝐞𝐫𝐚𝐭𝐞: The Ultimate UI/UX Showdown is here! Are you ready to showcase your creativity, innovation, and design thinking skills? 🖌💡 <br/> 📅 Date: 𝟯𝟬𝘁𝗵 𝗝𝗮𝗻𝗮𝘂𝗿𝘆 <br/>📍 Venue: 𝗟𝗮𝗯-𝟭𝟭𝟭, 𝗠𝗦𝗜𝗧 𝗝𝗮𝗻𝗮𝗸𝗽𝘂𝗿𝗶	 <br/> 👥 Team Size: 𝟭-𝟮 𝗺𝗲𝗺𝗯𝗲𝗿𝘀 <br/> 🎓 Eligibility: Open to all college students`,
+      },
+      {
+        name: "GUIDELINES",
+        image: T4,
+        id: 1,
+        content:
+          "✅ 1-2 members per team 🤝 <br/> ✅ Fill in details carefully before submitting ✍️<br/>✅ Double-check your contact details for updates 📩",
+      },
+      {
+        name: "THEME",
+        image: T4,
+        id: 2,
+        content:
+          "✨ 𝐅𝐮𝐭𝐮𝐫𝐢𝐬𝐭𝐢𝐜 𝐕𝐢𝐬𝐢𝐨𝐧 – Reimagine UI/UX for the world of tomorrow. <br/>🎮 𝐑𝐞𝐭𝐫𝐨 𝐀𝐫𝐜𝐚𝐝𝐞– Classic aesthetics with a modern design twist. <br/>🎨 𝐁𝐨𝐮𝐧𝐝𝐥𝐞𝐬𝐬 𝐂𝐫𝐞𝐚𝐭𝐢𝐯𝐢𝐭𝐲 – No rules, just pure imagination in UI/UX!",
+      },
+    ],
+  },
+
+  {
+    id: 11,
     tabs: [
       {
         image: robot,
@@ -671,10 +654,6 @@ Failure to adhere to the rules or causing disruption to the event will lead to i
       {
         image: gaming,
         id: 2,
-      },
-      {
-        image: fun,
-        id: 3,
       },
     ],
   },
