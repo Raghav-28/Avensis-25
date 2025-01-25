@@ -50,15 +50,15 @@ const index = () => {
         <div id="head">
           <img src={image1} className="shape3" alt="" />
           <div id="Headtitle">
-            <h1 className={`${css(styles.fadeInLeftBig)} astroz-font`}>
-              MULTIVERSAL ESCAPADE
+            <h1 className={`${css(styles.fadeInLeftBig)} font-[astroz]`}>
+            AETHERIZED REALM
             </h1>
             <h2 className={`${css(styles.fadeInRightBig)}`}>
               "ticket to a new reality"{" "}
             </h2>
             <p className={`${css(styles.flash)}`}>
-              Step into the next dimension at AVENSIS - The Annual Technical
-              Fest of MSIT{" "}
+            Step into the digital abyss at AVENSIS 2025.
+            Where technology transcends dimensions.{" "}
             </p>
           </div>
           <img src={image2} className="shape2" alt="" />

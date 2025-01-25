@@ -621,7 +621,7 @@ export const Events = [
         name: "ABOUT",
         image: T4,
         id: 0,
-        content: `🎨 𝐔𝐗𝐜𝐞𝐥𝐞𝐫𝐚𝐭𝐞: The Ultimate UI/UX Showdown is here! Are you ready to showcase your creativity, innovation, and design thinking skills? 🖌💡 <br/> 📅 Date: 𝟯𝟬𝘁𝗵 𝗝𝗮𝗻𝗮𝘂𝗿𝘆 <br/>📍 Venue: 𝗟𝗮𝗯-𝟭𝟭𝟭, 𝗠𝗦𝗜𝗧 𝗝𝗮𝗻𝗮𝗸𝗽𝘂𝗿𝗶	 <br/> 👥 Team Size: 𝟭-𝟮 𝗺𝗲𝗺𝗯𝗲𝗿𝘀 <br/> 🎓 Eligibility: Open to all college students`,
+        content: `🎨 𝐔𝐗𝐜𝐞𝐥𝐞𝐫𝐚𝐭𝐞: The Ultimate UI/UX Showdown is here! Are you ready to showcase your creativity, innovation, and design thinking skills? 🖌💡 <br/> 📅 Date: 𝟯𝟬𝘁𝗵 𝗝𝗮𝗻ua𝗿𝘆 <br/>📍 Venue: 𝗟𝗮𝗯-𝟭𝟭𝟭, 𝗠𝗦𝗜𝗧 𝗝𝗮𝗻𝗮𝗸𝗽𝘂𝗿𝗶	 <br/> 👥 Team Size: 𝟭-𝟮 𝗺𝗲𝗺𝗯𝗲𝗿𝘀 <br/> 🎓 Eligibility: Open to all college students`,
       },
       {
         name: "GUIDELINES",
