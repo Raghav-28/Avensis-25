@@ -7,6 +7,7 @@ import EventCard from "../../components/Events/EventCard";
 import { fadeInLeftBig, fadeInRightBig, tada, flash } from "react-animations";
 import { StyleSheet, css } from "aphrodite";
 import { Events } from "../../config/events.js";
+import "../../style.css";
 
 const Index = () => {
   useEffect(() => {
@@ -52,15 +53,15 @@ const Index = () => {
         <div id="head">
           <img src={shape3} class="shape3" alt="" />
           <div id="Headtitle">
-            <h1 className={`${css(styles.fadeInLeftBig)}astroz-font`}>
-              MULTIVERSAL ESCAPADE
+            <h1 className={`${css(styles.fadeInLeftBig)} astroz-font`}>
+              AETHERIZED REALM
             </h1>
             <h2 class={`${css(styles.fadeInRightBig)}`}>
               "ticket to a new reality"{" "}
             </h2>
             <p class={`${css(styles.flash)}`}>
-              Step into the next dimension at AVENSIS - The Annual Technical
-              Fest of MSIT{" "}
+              Step into the digital abyss at AVENSIS 2025. Where technology
+              transcends dimensions.{" "}
             </p>
           </div>
           <img src={shape2} class="shape2" alt="" />
