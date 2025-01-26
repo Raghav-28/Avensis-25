@@ -59,36 +59,84 @@ const Footer = () => {
       image : harsh,
     },
   ]; */ 
-  function memberCard(member)
-  {
-    return <div class="mx-[15px] w-[160px]">
-                <a href={member.linkedIn} target="_blank"><img src={member.image} className=' mx-auto rounded-[50%] w-36 h-36'/></a>
-                <h4 className='text-[18px] text-black font-semibold'>{member.name}</h4>
-                <a href={member.linkedIn}><h5 className='font-bold text-[16px] text-blue-600 '>Linkedin</h5></a>
-            </div>
-  }
+  // function memberCard(member)
+  // {
+  //   return <div class="mx-[15px] w-[160px]">
+  //               <a href={member.linkedIn} target="_blank"><img src={member.image} className=' mx-auto rounded-[50%] w-36 h-36'/></a>
+  //               <h4 className='text-[18px] text-black font-semibold'>{member.name}</h4>
+  //               <a href={member.linkedIn}><h5 className='font-bold text-[16px] text-blue-600 '>Linkedin</h5></a>
+  //           </div>
+  // }
   return (
     <div id="footer"  className='m-0 bg-[url(https://i.ibb.co/vhQq6hM/footer-back.png)] '>
       <div className='pb-8'>
 
       
-        <div className="contacts m-0">
-            <div class="contact2 w-[80%] md:flex justify-between mb-12">
-                <div className=''>
-                  <span className="contactname  ">
-                  Krish </span><span class="contactcoma"><br/> </span><span>Cheif Advisor</span><br/>
-                  <span>+91 9871601918</span></div>
-                 <div>
-                  <span class="contactname">Deepak</span><span class="contactcoma"><br/> </span><span >Chief Advisor </span><br/>
-                <span>+91 84477 40842 </span>  
-                </div>
-            </div>
-        </div>
+      <div className="contacts m-0">
+  <div className="contact2 w-[80%] flex flex-wrap md:flex-nowrap justify-between mb-12">
+    {/* Advisor 1 */}
+    <div className="advisor mb-4 md:mb-0">
+      <span className="contactname"> Tusshar Aggarwal</span>
+      <br />
+      <span>Chief Advisor</span>
+      <br />
+      <span>+91 88517 11857</span>
+    </div>
+
+    {/* Advisor 2 */}
+    <div className="advisor mb-4 md:mb-0">
+      <span className="contactname">Ishneet Kaur Chadha</span>
+      <br />
+      <span>Chief Advisor</span>
+      <br />
+      <span>+91 98714 38441</span>
+    </div>
+
+    {/* Advisor 3 */}
+    <div className="advisor mb-4 md:mb-0">
+      <span className="contactname">Sanskriti Singh</span>
+      <br />
+      <span>Chief Advisor</span>
+      <br />
+      <span>+91 88828 80292</span>
+    </div>
+
+    {/* Advisor 4 */}
+    <div className="advisor mb-4 md:mb-0">
+      <span className="contactname">Shubham Sharma</span>
+      <br />
+      <span>Chief Advisor</span>
+      <br />
+      <span>+91 84483 42840</span>
+    </div>
+
+    {/* Advisor 5 */}
+    <div className="advisor mb-4 md:mb-0">
+      <span className="contactname">Tarush Masand</span>
+      <br />
+      <span>Chief Advisor</span>
+      <br />
+      <span>+91 96258 92428</span>
+    </div>
+  </div>
+</div>
+{/* Tusshar Aggarwal
++91 88517 11857
+
+Ishneet Kaur Chadha
++91 98714 38441
+
+Sanskriti Singh
++91 88828 80292
+
+Shubham Sharma
++91 84483 42840
+
+Tarush Masand
++91 96258 92428 */}
 
 
         <div className='w-[80%] mb-3 mx-auto h-[1px] bg-[#EBB22D]'></div>
-
-
 
         {/* <div className='grid grid-cols-1 md:grid-cols-4 ml-4 '> */}
         <div class="md:flex justify-between m-0 w-[80%] md:w-[80%] mx-auto">
@@ -101,7 +149,7 @@ const Footer = () => {
           </div>
                   <div className=''>
                <h4> MSIT C-4 JANAKPURI, Delhi 110058 </h4>
-              </div><h4 className="text-[12px] md:text-sm ">Coded with ❤ by <button onClick={displayTeam} className=   'text-[#EBB22D] font-bold text-[13px]'>MSIT</button></h4>
+              </div><h4 className="text-[12px] md:text-sm ">Coded  by Kunal  Vashisht <button onClick={displayTeam} className=   'text-[#EBB22D] font-bold text-[13px]'>MSIT</button></h4>
         </div>
           
 
@@ -122,9 +170,6 @@ const Footer = () => {
                 <button onClick={hideTeam} type="button" id="closeteam" className='ml-[85%] my-2' data-dismiss="modal">Close</button>
               </div>
                  }
-
-
-
              </div>
       
     </div>

@@ -1,7 +1,7 @@
 import React, { useState ,useEffect } from "react";
 import { FaBars} from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Logo from "../../../Images/logoo.png"
+import Logo from "../../../Images/IMG_6750__1_-removebg-preview.png"
 import cookie from "js-cookie"
 
 const Navbar = () => {
