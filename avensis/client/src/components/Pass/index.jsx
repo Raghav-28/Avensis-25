@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Logo from "../../Images/logo_tri.png";
+import Logo from "../../Images/IMG_6750__1_-removebg-preview.png";
 import { useToImage } from "@hcorta/react-to-image";
-import pass from "../../Images/passes.jpeg";
-import cookie from "js-cookie";
+// import pass from "../../Images/passes.jpeg";
+// import cookie from "js-cookie";
 import { account } from "../../services/appwriteService.js";
 const Index = () => {
   const { ref, isLoading, getPng, dataURL } = useToImage();
