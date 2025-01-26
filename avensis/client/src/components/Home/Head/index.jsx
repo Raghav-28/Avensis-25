@@ -53,7 +53,7 @@ const index = () => {
           <img src={image2} className="shape2" alt="" />
         </div>
         <div className="buttons">
-          <div className="w-[40px]"></div>
+          
           <Link to="/events">
             <button className={`md:mt-16 subscribe3 ${css(styles.tada)}`}>
               EXPLORE
