@@ -1,19 +1,17 @@
-import React, { useState } from 'react'
-import image from "../../../Images/footer-back.png"
+import React, { useState } from "react";
+import image from "../../../Images/footer-back.png";
 import { FiMail } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   const [count, setCount] = useState(0);
-  function displayTeam()
-  {
+  function displayTeam() {
     setCount(1);
   }
-  function hideTeam()
-  {
+  function hideTeam() {
     setCount(0);
   }
-    /* const team = [
+  /* const team = [
     {
       name: "Tanay Aggarwal",
       linkedIn:"https://www.tanayaggarwal.com",
@@ -151,16 +149,51 @@ Tarush Masand
                <h4> MSIT C-4 JANAKPURI, Delhi 110058 </h4>
               </div><h4 className="text-[12px] md:text-sm ">Coded  by Kunal  Vashisht <button onClick={displayTeam} className=   'text-[#EBB22D] font-bold text-[13px]'>MSIT</button></h4>
         </div>
-          
 
-        
+        {/* Divider */}
+        <div className="w-[90%] mb-4 mx-auto h-[1px] bg-[#EBB22D]"></div>
 
-        {count==1 &&
-                <div className=' w-[80%] mx-auto bg-white rounded-lg text-black fixed top-[5%] left-[10%]'>
-                <h1 className='py-3 ml-[10%] text-3xl font-semibold text-black'>Meet the team</h1>
-                <div className='w-full h-[2px] bg-gray-300'></div>
-                <div className='w-[90%] flex flex-wrap mx-auto justify-around text-center mt-3'>
-                        { /*
+        {/* Footer Section */}
+        <div className="w-[90%] md:flex justify-between items-center mx-auto text-center md:text-left">
+          <div className="flex justify-center items-center mb-4 md:mb-0">
+            <h4 className="font-bold text-lg">FOLLOW US</h4>
+            <a href="https://www.instagram.com/avensis_2023/" className="ml-3">
+              <FaInstagram className="fa-2xl text-[#EBB22D] hover:scale-110 transition-transform duration-200" />
+            </a>
+            <FiMail className="ml-4 text-[#EBB22D] text-xl" />
+            <a
+              href="mailto:avensis2023@msit.in"
+              className="ml-2 text-sm text-gray-300 hover:text-white"
+            >
+              avensis2023@msit.in
+            </a>
+          </div>
+          <div className="mb-4 md:mb-0">
+            <h4 className="text-sm text-gray-300">
+              MSIT C-4 JANAKPURI, Delhi 110058
+            </h4>
+          </div>
+          <div>
+            <h4 className="text-sm text-gray-300">
+              Coded with ❤ by{" "}
+              <button
+                onClick={displayTeam}
+                className="text-[#EBB22D] font-bold hover:underline"
+              >
+                MSIT
+              </button>
+            </h4>
+          </div>
+        </div>
+
+        {count === 1 && (
+          <div className=" w-[80%] mx-auto bg-white rounded-lg text-black fixed top-[5%] left-[10%]">
+            <h1 className="py-3 ml-[10%] text-3xl font-semibold text-black">
+              Meet the team
+            </h1>
+            <div className="w-full h-[2px] bg-gray-300"></div>
+            <div className="w-[90%] flex flex-wrap mx-auto justify-around text-center mt-3">
+              {/*
                         {team.map((member) => (
                           memberCard(member)
                         ))} 
@@ -173,7 +206,7 @@ Tarush Masand
              </div>
       
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

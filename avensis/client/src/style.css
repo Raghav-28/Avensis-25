@@ -3,7 +3,17 @@
     padding: 0;
     color:white;
 }
+@font-face {
+    font-family: 'Astroz';
+    src: url('./fonts/Astroz\ Trial.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
+.astroz-font {
+    font-family: 'Astroz', sans-serif; 
+  }
+  
 h1{
     font-size: 50px;
     line-height: 64px;
@@ -276,7 +286,7 @@ body{
     top: 200px;
 }
 #head h2{
-   font-family: 'Ultra';
+   font-family: 'Astroz';
    font-weight: 90;
    text-align: center;
    font-size: 45px;
@@ -286,7 +296,7 @@ body{
 }
 
 #head h1{
-    font-family: 'Ultra';
+    font-family: 'Astroz';
     font-weight: 100;
     text-align: center;
     font-size: 55px;

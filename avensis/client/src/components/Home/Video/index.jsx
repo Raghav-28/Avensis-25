@@ -1,22 +1,31 @@
-import React from 'react'
-import video from '../../../Images/avensis1.M4V'
+import React from "react";
+import video from "../../../Images/avensis1.M4V";
 
-const index = () => {
+const Index = () => {
   return (
-    <div className='bg-theme mb-24'>
+    <div className="relative w-full h-screen bg-theme mb-24">
+      {/* Video Background */}
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        autoPlay
+        loop
+        muted
+      >
+        <source src={video} type="video/mp4" />
+        <source src="Images/movie.ogg" type="video/ogg" />
+        Your browser does not support the video tag.
+      </video>
 
-      <section className="video bg-no-repeat bg-center  bg-[url(https://i.ibb.co/y04dbzV/april-01.png)]" id='video'>
-          <video className='w-[70%] mx-auto border-8  border-white' autoPlay loop muted>
-              <source src={video} type="video/mp4"/>
-              <source src="Images/movie.ogg" type="video/ogg"/>
-              Your browser does not support the video tag.
-            </video>
-      </section>
+      {/* Overlay for Dim Effect */}
+      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30 z-10"></div>
+
+      {/* Content (if needed) */}
+      <div className="relative z-20 flex items-center justify-center h-full">
+        <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-bold tracking-wide text-center">
+        </h1>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default index
-
-
-
+export default Index;
