@@ -86,44 +86,14 @@ Tarush Masand
           </div>
                   <div className=''>
                <h4> MSIT C-4 JANAKPURI, Delhi 110058 </h4>
-              </div><h4 className="text-[12px] md:text-sm ">Coded  by Kunal  Vashisht <button onClick={displayTeam} className=   'text-[#EBB22D] font-bold text-[13px]'>MSIT</button></h4>
+              </div><h4 className="text-[12px] md:text-sm ">Coded  by Kunal  Vashisht <button className=   'text-[#EBB22D] font-bold text-[13px]'>MSIT</button></h4>
         </div>
 
         {/* Divider */}
         <div className="w-[90%] mb-4 mx-auto h-[1px] bg-[#EBB22D]"></div>
 
         {/* Footer Section */}
-        <div className="w-[90%] md:flex justify-between items-center mx-auto text-center md:text-left">
-          <div className="flex justify-center items-center mb-4 md:mb-0">
-            <h4 className="font-bold text-lg">FOLLOW US</h4>
-            <a href="https://www.instagram.com/avensis_2023/" className="ml-3">
-              <FaInstagram className="fa-2xl text-[#EBB22D] hover:scale-110 transition-transform duration-200" />
-            </a>
-            <FiMail className="ml-4 text-[#EBB22D] text-xl" />
-            <a
-              href="mailto:avensis2023@msit.in"
-              className="ml-2 text-sm text-gray-300 hover:text-white"
-            >
-              avensis2023@msit.in
-            </a>
-          </div>
-          <div className="mb-4 md:mb-0">
-            <h4 className="text-sm text-gray-300">
-              MSIT C-4 JANAKPURI, Delhi 110058
-            </h4>
-          </div>
-          <div>
-            <h4 className="text-sm text-gray-300">
-              Coded with ❤ by{" "}
-              <button
-                onClick={displayTeam}
-                className="text-[#EBB22D] font-bold hover:underline"
-              >
-                MSIT
-              </button>
-            </h4>
-          </div>
-        </div>
+       
 
         
              </div>
