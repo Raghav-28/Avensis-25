@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Logo from "../../../Images/IMG_6750__1_-removebg-preview.png"
-import cookie from "js-cookie"
+
 
 const Navbar = () => {
   let Links = [
@@ -68,19 +68,7 @@ const Navbar = () => {
             {link.name}
           </a>
         ))}
-        {user === "REGISTER" ? (
-          <Link to="https://avensis-backend.msit.in/auth/google/callback">
-            <button className="font-medium tracking-wider bg-theme text-[14px] leading-8 text-[#F9F7F7] hover:text-theme border-gradient-to-r from-cyan-500 to-blue-500 border-2 px-5 py-1 rounded-[20px] hover:bg-[#F9F7F7] duration-500">
-              REGISTER
-            </button>
-          </Link>
-        ) : (
-          <Link to="/pass">
-            <button className="font-medium tracking-wider bg-theme text-[14px] leading-8 text-[#F9F7F7] hover:text-theme border-gradient-to-r from-cyan-500 to-blue-500 border-2 px-5 py-1 rounded-[20px] hover:bg-[#F9F7F7] duration-500">
-              {user}
-            </button>
-          </Link>
-        )}
+       
       </div>
 
       {/* Mobile Menu */}

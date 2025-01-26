@@ -9,18 +9,7 @@ import { fadeInLeftBig, fadeInRightBig, tada, flash } from "react-animations";
 import { StyleSheet, css } from "aphrodite";
 // head.js
 
-import { account } from "../../../services/appwriteService.js";
-const getPass = async () => {
-  try {
-    account.createOAuth2Session(
-      "google",
-      "https://avensis.vercel.app/pass",
-      "https://avensis.vercel.app/pass"
-    );
-  } catch (error) {
-    console.error("Login failed:", error);
-  }
-};
+
 
 const index = () => {
   const styles = StyleSheet.create({
@@ -64,12 +53,6 @@ const index = () => {
           <img src={image2} className="shape2" alt="" />
         </div>
         <div className="buttons">
-          <button
-            onClick={getPass}
-            className={`md:mt-16 subscribe2 ${css(styles.tada)}`}
-          >
-            GET PASS
-          </button>
           <div className="w-[40px]"></div>
           <Link to="/events">
             <button className={`md:mt-16 subscribe3 ${css(styles.tada)}`}>
