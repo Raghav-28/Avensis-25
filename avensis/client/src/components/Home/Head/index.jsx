@@ -1,7 +1,7 @@
 import React from "react";
 import image1 from "../../../Images/shape3.png";
 import image2 from "../../../Images/shape2.png";
-import image3 from "../../../Images/shape6.png";
+// import image3 from "../../../Images/shape6.png";
 import "../../../style.css";
 import { Link } from "react-router-dom";
 // import { bounce } from 'react-animations';
@@ -60,7 +60,6 @@ const index = () => {
             </button>
           </Link>
         </div>
-        <img src={image3} id="shape5" alt="" />
       </section>
     </div>
   );
