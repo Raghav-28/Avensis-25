@@ -30,11 +30,6 @@ const Index = () => {
       animationDuration: "2s",
     },
 
-    tada: {
-      animationName: tada,
-      animationDuration: "2s",
-    },
-
     flash: {
       animationName: flash,
       animationDuration: "3s",
