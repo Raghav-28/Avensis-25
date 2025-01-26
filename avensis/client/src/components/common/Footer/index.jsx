@@ -84,7 +84,7 @@ const Footer = () => {
           <div className="contact2 w-[90%] md:flex justify-between mx-auto mb-12">
             <div className="text-center md:text-left mb-6 md:mb-0">
               <span className="contactname font-bold text-xl">
-                Tushar Aggarwal
+                Tusshar Aggarwal
               </span>
               <br />
               <span className="text-base text-gray-300">Chief Advisor</span>
