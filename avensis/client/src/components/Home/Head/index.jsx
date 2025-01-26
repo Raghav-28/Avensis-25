@@ -45,6 +45,14 @@ const index = () => {
             <h2 className={`${css(styles.fadeInRightBig)}`}>
               "ticket to a new reality"{" "}
             </h2>
+            <div className="buttons">
+          
+          <Link to="/events">
+            <button className={`md:mt-4 subscribe3 ${css(styles.tada)}`}>
+              EXPLORE
+            </button>
+          </Link>
+        </div>
             <p className={`${css(styles.flash)}`}>
             Step into the digital abyss at AVENSIS 2025.
             Where technology transcends dimensions.{" "}
@@ -52,14 +60,7 @@ const index = () => {
           </div>
           <img src={image2} className="shape2" alt="" />
         </div>
-        <div className="buttons">
-          
-          <Link to="/events">
-            <button className={`md:mt-16 subscribe3 ${css(styles.tada)}`}>
-              EXPLORE
-            </button>
-          </Link>
-        </div>
+       
       </section>
     </div>
   );
