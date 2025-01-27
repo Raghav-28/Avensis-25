@@ -1,36 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import image1 from "../../../Images/shape3.png";
 import image2 from "../../../Images/shape2.png";
-// import image3 from "../../../Images/shape6.png";
 import "../../../style.css";
 import { Link } from "react-router-dom";
-// import { bounce } from 'react-animations';
 import { fadeInLeftBig, fadeInRightBig, tada, flash } from "react-animations";
 import { StyleSheet, css } from "aphrodite";
-// head.js
 
-import { account } from '../../../services/appwriteService.js'; 
-const getPass = async () => {
-  try {
-      account.createOAuth2Session('google', 'https://avensis-25-one.vercel.app/pass', 'https://avensis-25-one.vercel.app/pass');
-  } catch (error) {
-      console.error('Login failed:', error);
-  }
-};
+const Index = () => {
+  const [showForm, setShowForm] = useState(false); // State for form visibility
+  const [email, setEmail] = useState(""); // State to store email
 
-
-const index = () => {
   const styles = StyleSheet.create({
     fadeInLeftBig: {
       animationName: fadeInLeftBig,
       animationDuration: "2s",
     },
-
     fadeInRightBig: {
       animationName: fadeInRightBig,
       animationDuration: "2s",
     },
-
     tada: {
       animationName: tada,
       animationDuration: "2s",
@@ -41,37 +29,46 @@ const index = () => {
     },
   });
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = "https://ibb.co/LzMSGm9"; // Your image URL
+    link.download = "event-pass.png"; // Name of the downloaded file
+    link.style.display = 'none'; // Hide the link
+    document.body.appendChild(link);
+    link.click(); // Automatically click the link to trigger download
+    document.body.removeChild(link);
+  };
+  
+  
+
   return (
     <div className="">
       <section id="Head">
         <div id="head">
           <img src={image1} className="shape3" alt="" />
           <div id="Headtitle">
-            <h1 className={`${css(styles.fadeInLeftBig)} font-[astroz]`}>
-            AETHERIZED REALM
-            </h1>
-            <h2 className={`${css(styles.fadeInRightBig)}`}>
-              "ticket to a new reality"{" "}
-            </h2>
+            <h1 className={`${css(styles.fadeInLeftBig)} font-[astroz]`}>AETHERIZED REALM</h1>
+            <h2 className={`${css(styles.fadeInRightBig)}`}>"Ticket to a new reality"</h2>
             <div className="buttons">
-            <button onClick={getPass} className={`md:mt-16  subscribe2 ${css(styles.tada)}`}>GET PASS</button>
-          <Link to="/events">
-            <button className={`md:mt-4 subscribe3 ${css(styles.tada)}`}>
-              EXPLORE
-            </button>
-          </Link>
-        </div>
+            <button onClick={handleDownload} className={`md:mt-16 subscribe2 ${css(styles.tada)}`}>
+  GET PASS
+</button>
+
+              <Link to="/events">
+                <button className={`md:mt-4 subscribe3 ${css(styles.tada)}`}>
+                  EXPLORE
+                </button>
+              </Link>
+            </div>
             <p className={`${css(styles.flash)}`}>
-            Step into the digital abyss at AVENSIS 2025.
-            Where technology transcends dimensions.{" "}
+              Step into the digital abyss at AVENSIS 2025. Where technology transcends dimensions.
             </p>
           </div>
           <img src={image2} className="shape2" alt="" />
         </div>
-       
       </section>
     </div>
   );
 };
 
-export default index;
+export default Index;
