@@ -49,20 +49,21 @@ const Index = () => {
             <h2 className={`${css(styles.fadeInRightBig)}`}>
               "Ticket to a new reality"
             </h2>
-            <div className="buttons">
-              <button
-                onClick={handleDownload} // Trigger the download on click
-                className={`md:mt-16 subscribe2 ${css(styles.tada)}`}
-              >
-                GET PASS
-              </button>
-              
-              <Link to="/events">
-                <button className={`md:mt-4 subscribe3 ${css(styles.tada)}`}>
-                  EXPLORE
-                </button>
-              </Link>
-            </div>
+            <div className="buttons flex flex-col md:flex-row md:space-x-4">
+  <button
+    onClick={handleDownload} // Trigger the download on click
+    className={`md:mt-16 subscribe2 ${css(styles.tada)} md:mr-4`}
+  >
+    GET PASS
+  </button>
+
+  <Link to="/events">
+    <button className={`md:mt-4 subscribe3 ${css(styles.tada)}`}>
+      EXPLORE
+    </button>
+  </Link>
+</div>
+
             <p className={`${css(styles.flash)}`}>
               Step into the digital abyss at AVENSIS 2025. Where technology transcends dimensions.
             </p>

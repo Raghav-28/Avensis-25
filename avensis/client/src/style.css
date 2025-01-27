@@ -233,10 +233,10 @@ body{
         font-size: 0.7em;    
         }
         .subscribe3{
-        padding: 7px 23px;
-        font-size: 0.7em;    
-        border-width: 2px;
-        width: 110px;
+            border-width: 2px;
+            font-size: .7em;
+            padding: 7px 13px;
+            width: 80px;
         }
         .subscribe4{
         padding: 9px 25px;
