@@ -49,10 +49,15 @@ const Index = () => {
             <h2 className={`${css(styles.fadeInRightBig)}`}>
               "Ticket to a new reality"
             </h2>
-            <div className="buttons flex flex-col md:flex-row md:space-x-4">
+            <div className="buttons ">
+            {/* <div className="buttons">
+            <button onClick={getPass} className={`md:mt-16 subscribe2 ${css(styles.tada)}`}>GET PASS</button>
+            <div className='w-[40px]'></div>
+            <Link to="/events"><button className={`md:mt-16 subscribe3 ${css(styles.tada)}`}>EXPLORE</button></Link>
+        </div> */}
   <button
     onClick={handleDownload} // Trigger the download on click
-    className={`md:mt-16 subscribe2 ${css(styles.tada)} md:mr-4`}
+    className={`md:mt-4 subscribe3 ${css(styles.tada)}`}
   >
     GET PASS
   </button>
