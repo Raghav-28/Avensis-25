@@ -9,6 +9,14 @@ import { fadeInLeftBig, fadeInRightBig, tada, flash } from "react-animations";
 import { StyleSheet, css } from "aphrodite";
 // head.js
 
+import { account } from '../../../services/appwriteService.js'; 
+const getPass = async () => {
+  try {
+      account.createOAuth2Session('google', 'https://avensis-25-one.vercel.app/pass', 'https://avensis-25-one.vercel.app/pass');
+  } catch (error) {
+      console.error('Login failed:', error);
+  }
+};
 
 
 const index = () => {
@@ -46,7 +54,7 @@ const index = () => {
               "ticket to a new reality"{" "}
             </h2>
             <div className="buttons">
-          
+            <button onClick={getPass} className={`md:mt-16  subscribe2 ${css(styles.tada)}`}>GET PASS</button>
           <Link to="/events">
             <button className={`md:mt-4 subscribe3 ${css(styles.tada)}`}>
               EXPLORE

@@ -267,7 +267,7 @@ body{
  
 #head{
     background-color: #171221;
-    display: flex;
+    /* display: flex; */
 }
 #head .shape2{
     height: 140px;
