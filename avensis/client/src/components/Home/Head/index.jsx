@@ -1,15 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import image1 from "../../../Images/shape3.png";
 import image2 from "../../../Images/shape2.png";
 import "../../../style.css";
 import { Link } from "react-router-dom";
 import { fadeInLeftBig, fadeInRightBig, tada, flash } from "react-animations";
 import { StyleSheet, css } from "aphrodite";
-
+import eventpass from "../../../Images/pass'25.jpg"
 const Index = () => {
-  const [showForm, setShowForm] = useState(false); // State for form visibility
-  const [email, setEmail] = useState(""); // State to store email
-
   const styles = StyleSheet.create({
     fadeInLeftBig: {
       animationName: fadeInLeftBig,
@@ -30,16 +27,15 @@ const Index = () => {
   });
 
   const handleDownload = () => {
+    // Create an invisible link and trigger the download automatically
     const link = document.createElement('a');
-    link.href = "https://ibb.co/LzMSGm9"; // Your image URL
-    link.download = "event-pass.png"; // Name of the downloaded file
+    link.href = "https://i.ibb.co/Rp125fQ/pass-25.jpg"; // Your image URL
+    link.download = "pass'25.jpg"; // File name for download
     link.style.display = 'none'; // Hide the link
     document.body.appendChild(link);
-    link.click(); // Automatically click the link to trigger download
+    link.click(); // Automatically click to trigger the download
     document.body.removeChild(link);
   };
-  
-  
 
   return (
     <div className="">
@@ -47,13 +43,20 @@ const Index = () => {
         <div id="head">
           <img src={image1} className="shape3" alt="" />
           <div id="Headtitle">
-            <h1 className={`${css(styles.fadeInLeftBig)} font-[astroz]`}>AETHERIZED REALM</h1>
-            <h2 className={`${css(styles.fadeInRightBig)}`}>"Ticket to a new reality"</h2>
+            <h1 className={`${css(styles.fadeInLeftBig)} font-[astroz]`}>
+              AETHERIZED REALM
+            </h1>
+            <h2 className={`${css(styles.fadeInRightBig)}`}>
+              "Ticket to a new reality"
+            </h2>
             <div className="buttons">
-            <button onClick={handleDownload} className={`md:mt-16 subscribe2 ${css(styles.tada)}`}>
-  GET PASS
-</button>
-
+              <button
+                onClick={handleDownload} // Trigger the download on click
+                className={`md:mt-16 subscribe2 ${css(styles.tada)}`}
+              >
+                GET PASS
+              </button>
+              
               <Link to="/events">
                 <button className={`md:mt-4 subscribe3 ${css(styles.tada)}`}>
                   EXPLORE
